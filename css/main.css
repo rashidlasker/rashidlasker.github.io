@@ -103,15 +103,31 @@ html, body {
 }
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     min-height: 100vh;
+}
+
+*{
+    transition: 0.5s;
+}
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1100px;
 }
 
 /***********************************NAV***************************************/
 nav{
-    padding: 20px 5%;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
 }
+
+.nav-wrap{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .wrapper {
     text-align: center;
     display: inline-block;
@@ -124,6 +140,7 @@ nav h1{
     text-transform: uppercase
     
 }
+
 .clip-text {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -167,9 +184,74 @@ background-image: linear-gradient(to right, #c2e59c, #64b3f4, #c2e59c);
     background-position:1500px 0px;
   }
 } 
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+}
+
+nav ul li{
+    transition: 0.5s;
+    border-bottom: 2px solid #64b3f4;
+}
+
+nav ul li:hover{
+    color: #64b3f4;
+    transition: 0.5s;
+}
+/***********************************MAIN**************************************/
+
+.main{
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.myPic, .myPic2{
+    width: 40%;
+    display: inline-block;
+}
+
+.myPic2{
+    display: none;
+}
+
+.content{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+/**********************************SOCIAL*************************************/
+.text-center-wrapper{
+    text-align: center;
+}
+.social{
+    display: inline-block;
+}
+
+.social .fa{
+    color: #64b3f4;
+    margin: 0 7px;
+    font-size: 40px;
+    transition: 0.2s;
+    vertical-align: top;
+}
+
+.social .fa:hover{
+    font-size: 50px;
+    transition: 0.2s;
+}
+
 /**********************************FOOTER*************************************/
 .footer{
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 .footer span {
@@ -198,6 +280,29 @@ background-image: linear-gradient(to right, #c2e59c, #64b3f4, #c2e59c);
   }
 }
 
+/*******************************MEDIA QUERIES**********************************/
+
+@media only screen and (max-width: 966px) {
+    .myPic{
+        display: none;
+    }
+    .myPic2{
+        display: block;
+        width: 100%
+    }
+    .content{
+        margin:0;
+        width:100%;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
 /* ==========================================================================
    Helper classes
