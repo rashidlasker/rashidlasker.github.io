@@ -234,7 +234,7 @@ nav ul li:hover{
     display: inline-block;
 }
 
-.social .fa{
+.social .fa, .devpost{
     color: #64b3f4;
     margin: 0 7px;
     font-size: 40px;
@@ -246,6 +246,15 @@ nav ul li:hover{
     font-size: 50px;
     transition: 0.2s;
 }
+
+.devpost{
+    height: 40px;
+}
+
+.devpost:hover{
+    height: 50px;
+}
+
 
 /**********************************FOOTER*************************************/
 .footer{
