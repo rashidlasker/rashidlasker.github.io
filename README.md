@@ -1,1 +1,0 @@
-# swe-summit-js
