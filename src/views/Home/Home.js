@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../../img/logo.svg';
+import ProfilePic from '../../img/rashid.JPG'
 import './Home.css';
 
 class Home extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="home-content">
+        <img class="profile-pic" src={ProfilePic} alt="Rashid Lasker"/>
+        <div class="text">
+          <h1>Hello there!</h1>
+          <p>I'm Rashid and I'm a second-year studying Computer Science at the University of Virginia. Over the years, I've designed and developed everything from web apps to games to Alexa skills to AI bots. I'm currently working on redeveloping my personal site with React, so check back here in a few weeks! In the meantime, here are a few links to get to know me better.</p>
+        </div>
       </div>
     );
   }

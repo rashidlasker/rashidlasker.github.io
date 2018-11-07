@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import logo from '../../img/logo.svg';
 import './App.css';
 import Home from '../Home';
 import Projects from '../Projects';
@@ -12,6 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <nav>
+            <h1>Rashid Lasker</h1>
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -24,9 +24,11 @@ class App extends Component {
               </li>
             </ul>
           </nav>
-          <Route path="/" exact component={Home} />
-          <Route path="/projects/" component={Projects} />
-          <Route path="/links/" component={Links} />
+          <div className="content">
+            <Route path="/" exact component={Home} />
+            <Route path="/projects/" component={Projects} />
+            <Route path="/links/" component={Links} />
+          </div>
         </div>
       </Router>
     );

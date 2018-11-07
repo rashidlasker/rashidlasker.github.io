@@ -1,0 +1,44 @@
+{
+    "github": {
+        "title": "Github",
+        "icon": "github.png",
+        "background-color": "#6e5494",
+        "link": "https://github.com/rashidlasker" 
+    },
+    "linkedin": {
+        "title": "LinkedIn",
+        "icon": "linkedin.png",
+        "background-color": "#0077b5",
+        "link": "https://linkedin.com/in/rashidlasker/" 
+    },
+    "devpost": {
+        "title": "Devpost",
+        "icon": "devpost.png",
+        "background-color": "#003E54",
+        "link": "https://devpost.com/rashidlasker" 
+    },
+    "medium": {
+        "title": "Medium",
+        "icon": "medium.png",
+        "background-color": "#00ab6c",
+        "link": "https://medium.com/@rashidlasker" 
+    },
+    "codepen": {
+        "title": "Codepen",
+        "icon": "codepen.png",
+        "background-color": "#0ebeff",
+        "link": "https://codepen.io/rashidlasker/" 
+    },
+    "resume": {
+        "title": "Resume",
+        "icon": "resume.png",
+        "background-color": "#204056",
+        "link": "http://docdro.id/qwKrlFH" 
+    },
+    "spotify": {
+        "title": "Spotify",
+        "icon": "spotify.png",
+        "background-color": "#1db954",
+        "link": "https://open.spotify.com/user/22cxvog4zrc6ynlg4p26vbdtq"
+    }
+}
