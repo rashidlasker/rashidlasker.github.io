@@ -1,9 +1,30 @@
+.projects-content {
+    text-align: center;
+}
+
+.projects-list {
+}
+
 .project {
-    width: 33.3%;
+    width: 30%;
+    height: auto;
+    margin-right: 2%; 
+    margin-bottom: 2%; 
     display: inline-block;
     vertical-align: top;
+    border: 1px #DDDDDD solid;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+
+.project:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 
 .project img {
     width: 100%;
+}
+.project-text {
+    padding: 10px;
 }

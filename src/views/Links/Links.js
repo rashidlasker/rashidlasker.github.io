@@ -27,9 +27,7 @@ class Links extends Component {
     let linkDataKeys = Object.keys(linkData);
     return linkDataKeys.map(key => {
       return (
-        <div key={key} className="link-wrapper">
-          {this.renderLink(linkData[key])}
-        </div>
+          this.renderLink(linkData[key])
       )
     })
   }

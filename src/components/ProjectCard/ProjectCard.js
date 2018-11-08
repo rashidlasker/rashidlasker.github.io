@@ -9,8 +9,10 @@ class ProjectCard extends Component {
     return (
       <div className="project">
         <img src={this.props.img} />
-        <h1>{this.props.data['title']}</h1>
-        <p>{this.props.data['summary']}</p>
+        <div className="project-text">
+          <h3>{this.props.data['title']}</h3>
+          <p>{this.props.data['summary']}</p>
+        </div>
       </div>
     );
   }

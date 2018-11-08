@@ -4,6 +4,13 @@ import { queryMatch } from '../../utils';
 import './Projects.css';
 import ProjectList from '../../components/ProjectList';
 
+/*  
+  Image notes:
+  UI colors here: https://flatuicolors.com/palette/us
+  Thumbnail dimensions: 700x439
+  Screely link: https://www.screely.com/editor
+*/
+
 class Projects extends Component {
   constructor(props) {
     super(props);
