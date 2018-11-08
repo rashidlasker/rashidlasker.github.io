@@ -17,7 +17,8 @@ class Projects extends Component {
     this.state = {
       value: '',
       loading: false,
-      projects: projectData
+      projects: projectData,
+      showSearchBar: true
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -61,7 +62,7 @@ class Projects extends Component {
     return (
       <input type="text" 
         className="projects-search" 
-        placeholder="Search.."
+        placeholder="Search"
         value={this.state.value} 
         onChange={this.handleChange} 
       />
@@ -71,7 +72,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects-content">
-        {this.renderSearchBar()}
+        {this.state.showSearchBar && this.renderSearchBar()}
         <ProjectList projects={this.state.projects}/>
       </div>
     );

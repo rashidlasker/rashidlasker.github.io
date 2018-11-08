@@ -1,5 +1,6 @@
 nav {
     position: fixed;
+    text-align: center;
     width: 100%;
     background-color: white;
     height: 80px;
@@ -7,8 +8,10 @@ nav {
 }
 
 nav h1 {
+    position: fixed;
     display: inline-block;
-    padding: 0;
+    width:180px;
+    padding: 25px;
     margin: 0;
 }
 
@@ -16,15 +19,13 @@ nav ul {
     display: inline-block;
     padding: 0;
     margin: 0;
+    width: 100%;
     list-style: none;
 }
 
 nav ul li{
     display: inline-block;
-}
-
-nav ul li a{
-    text-decoration: none;
+    padding: 31px;
 }
 
 .content {

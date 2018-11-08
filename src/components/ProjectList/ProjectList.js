@@ -10,12 +10,17 @@ class ProjectList extends Component {
 
   renderProjectList() {
     let projectDataKeys = Object.keys(this.props.projects);
-    console.log(images);
-    return projectDataKeys.map(key => {
-      return (
-        <ProjectCard key={key} data={this.props.projects[key]} img={images[this.props.projects[key]['imageLink']]} />
+    if (projectDataKeys.length === 0) {
+      return(
+        <h1>Oops! Can't find anything...</h1>
       )
-    })
+    } else {
+      return projectDataKeys.map(key => {
+        return (
+          <ProjectCard key={key} data={this.props.projects[key]} img={images[this.props.projects[key]['imageLink']]} />
+        )
+      })
+    } 
   }
 
   render() {
