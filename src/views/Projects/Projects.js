@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import projectData from '../../data/projects.json';
+import { queryMatch } from '../../utils';
 import './Projects.css';
+import ProjectList from '../../components/ProjectList';
 
 class Projects extends Component {
   constructor(props) {
@@ -21,32 +23,19 @@ class Projects extends Component {
       let currProject = projectData[key]
       let accepted = false;
 
-      if (currProject['title'].toLowerCase().indexOf(query) !== -1) {
+      if (queryMatch(query, currProject['title'])) {
         accepted = true;
-      } else if(currProject['summary'].toLowerCase().indexOf(query) !== -1) {
+      } else if (queryMatch(query, currProject['summary'])) {
         accepted = true;
-      } else if(currProject['description'].toLowerCase().indexOf(query) !== -1) {
+      } else if (queryMatch(query, currProject['description'])) {
         accepted = true;
-      } else {
-        for (var i in currProject['languages']) {
-          if(currProject['languages'][i].toLowerCase().indexOf(query) !== -1) {
-            accepted = true;
-            break;
-          }
-        }
-        for (var i in currProject['tools']) {
-          if(currProject['tools'][i].toLowerCase().indexOf(query) !== -1) {
-            accepted = true;
-            break;
-          }
-        }
-        for (var i in currProject['tags']) {
-          if(currProject['tags'][i].toLowerCase().indexOf(query) !== -1) {
-            accepted = true;
-            break;
-          }
-        }
-      } 
+      } else if (queryMatch(query, currProject['languages'].join(" "))) {
+        accepted = true;
+      } else if (queryMatch(query, currProject['tools'].join(" "))) {
+        accepted = true;
+      } else if (queryMatch(query, currProject['tags'].join(" "))) {
+        accepted = true;
+      }
 
       if (accepted) {
         result[key] = projectData[key];
@@ -76,7 +65,7 @@ class Projects extends Component {
     return (
       <div className="projects-content">
         {this.renderSearchBar()}
-        {JSON.stringify(this.state.projects)}
+        <ProjectList projects={this.state.projects}/>
       </div>
     );
   }

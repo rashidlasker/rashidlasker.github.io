@@ -42,10 +42,10 @@
         "endDate": "2018-03-29"
     },
     "multiredditscraper": {
-        "title": "",
+        "title": "Multi Reddit Scraper",
         "summary": "A Flask webserver API for searching through posts and comments in multiple programming subreddits.",
         "description": "This project was a coding challenge for Torch Technology. The task was to create an API that aggregates the posts and comments from a list of selected programming subreddits and make them searchable.",
-        "imageLink": "reddit.PNG",
+        "imageLink": "reddit.JPG",
         "projectLink": "",
         "githubLink": "https://github.com/rashidlasker/reddit-multireddit-scrape",
         "devpostLink": "",
@@ -60,7 +60,7 @@
         "title": "Freight Rate Mate",
         "summary": "A system designed to minimize risk in the shipping industry using real-time data and machine learning.",
         "description": "This web app plots shipping vehicles on a map according to their real-time location and status. Using a machine learning model, we calculate the statistical risk that each trucker is affording using their real-time traits. This information allows shipping insurers to dynamically assess risk levels and monitor shipping progess, which allows them to more accurately set insurance rates. The trucks in the demo are simulated. This project was a finalist at VTHacks 2018.",
-        "imageLink": "reinform.JPG",
+        "imageLink": "freightratemate.JPG",
         "projectLink": "https://rashidlasker.github.io/freight-rate-mate/",
         "githubLink": "https://github.com/acs3ss/freight-rate-mate",
         "devpostLink": "https://devpost.com/software/trucking-risk-minimization",

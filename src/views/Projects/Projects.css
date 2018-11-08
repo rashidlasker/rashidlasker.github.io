@@ -1,0 +1,9 @@
+.project {
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.project img {
+    width: 100%;
+}
