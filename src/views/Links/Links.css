@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.links-content a:nth-child(3n) .link, .links-content a:last-child .link{
+    margin-right: 0%; 
+}
+
 .link {
     display: inline-block;
     width: 20%;
@@ -24,3 +28,6 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.link-text {
+    margin-top: 10px;
+}
