@@ -10,7 +10,6 @@ const App = () => {
         <nav>
           <Link className="link link-1" to="">Rashid Lasker</Link>
           <span className="divider">|</span>
-          <Link className="link link-2" to="">Home</Link>
           <Link className="link link-3" to="/projects/">Projects</Link>
           <Link className="link link-4" to="/links/">Links</Link>
         </nav>

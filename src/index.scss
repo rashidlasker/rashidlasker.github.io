@@ -61,6 +61,66 @@ nav {
   }
 }
 
+///////////////////////////////////// BIO /////////////////////////////////////
+.bio-content {
+  display: grid;
+  // grid-template-columns: repeat(4, minmax(200px,1fr));
+  // grid-template-rows: repeat(4, 1fr);
+  // grid-gap: 50px;
+  grid-template-columns: repeat(minmax(1, 4), minmax(320px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+}
+
+.bio-section {
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bio-section-1 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.bio-section-2 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.bio-section-5 {
+  grid-column: span 1;
+  grid-row: span 1;
+  img {
+    width: 100%;
+  }
+}
+
+.bio-section-6 {
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+.bio-subsection {
+  margin-bottom: 40px;
+}
+
+.bio-title {
+  font-family: Roboto Mono, Sans-serif;
+  margin-bottom: 20px;
+  color: nth($colors, 1);
+}
+
+.bio-list-item {
+  font-family: Roboto Mono, Sans-serif;
+
+}
+
+.bio-text {
+  font-family: Roboto Mono, Sans-serif;
+  margin-bottom: 20px;
+  // max-width: 500px;
+}
 
 ///////////////////////////////////// CARDS /////////////////////////////////////
 .card-container {
