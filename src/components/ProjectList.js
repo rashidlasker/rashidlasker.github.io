@@ -7,23 +7,16 @@ const images = importAll(require.context('../img/projects', false, /\.(PNG|JPE?G
 const ProjectList = ({ projects }) => {
   const projectDataKeys = Object.keys(projects);
 
-  const Projects = () => {
-    if (projectDataKeys.length === 0) {
-      return(
-        <h1>Oops! Can't find anything...</h1>
-      )
-    } else {
-      return projectDataKeys.map(key => {
-        return (
-          <ProjectCard key={key} data={projects[key]} img={images[projects[key]['imageLink']]} />
-        )
-      })
-    } 
-  }
-
   return (
     <div>
-      {<Projects/>}
+      {projectDataKeys.length === 0 
+      ? <h1>Oops! Can't find anything...</h1>
+      : projectDataKeys.map(key => {
+          return (
+            <ProjectCard key={key} data={projects[key]} img={images[projects[key]['imageLink']]} />
+          )
+        })
+      }
     </div>
   );
 }

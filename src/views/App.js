@@ -8,10 +8,11 @@ const App = () => {
     <Router>
       <div className="App">
         <nav>
-          <Link to="">Rashid Lasker</Link>
-          <Link to="">Home</Link>
-          <Link to="/projects/">Projects</Link>
-          <Link to="/links/">Links</Link>
+          <Link className="link link-1" to="">Rashid Lasker</Link>
+          <div className="divider">|</div>
+          <Link className="link link-2" to="">Home</Link>
+          <Link className="link link-3" to="/projects/">Projects</Link>
+          <Link className="link link-4" to="/links/">Links</Link>
         </nav>
         <div className="content">
           <Route path="/" exact component={Home} />
