@@ -1,10 +1,11 @@
 import React from 'react';
 
-const ProjectCard = ({ img, data }) => {
+const ProjectCard = ({ img, data, index }) => {
+  const cardType = index % 4 + 1;
   return (
-    <div className="card">
-      <a href="#">
-        <img src={img} />
+    <div className={"card card-" + cardType}>
+      <a href={data['projectLink']}>
+        <img src={img} className="card-image"/>
         <div className="card-body">
           <div className="card-title">{data['title']}</div>
           <div className="card-text">{data['summary']}</div>

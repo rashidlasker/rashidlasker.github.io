@@ -1,0 +1,129 @@
+///////////////////////////////////// VARS /////////////////////////////////////
+$colors: #035aa6, #00909e, #40bad5, #fcbf1e;
+
+$break-small: 320px;
+$break-large: 1024px;
+$break-xlarge: 2048px;
+
+$animate: all 0.1s ease-in-out;
+
+///////////////////////////////////// GENERAL /////////////////////////////////////
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content {
+  max-width: $break-xlarge;
+  margin: 0 auto;
+}
+
+///////////////////////////////////// NAV /////////////////////////////////////
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.divider {
+  font-family: Roboto Mono, Sans-serif;
+  font-size: 20pt;
+}
+
+.link {
+  margin: 20px;
+  font-size: 20pt;
+  font-family: Roboto Mono, Sans-serif;
+  transition: $animate;
+  position: relative;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    height: 5px;
+    transition: $animate;
+    left: 0;
+  }
+  &:hover {
+    &:before,
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
+@for $i from 1 through length($colors) {
+  .link-#{$i}:after {
+    background-color: nth($colors, $i);
+  }
+}
+
+
+///////////////////////////////////// CARDS /////////////////////////////////////
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  font-family: Roboto Mono, Sans-serif;
+  border: 5px black solid;
+  margin: 20px;
+  width: 300px;
+  height: 425px;
+  transition: $animate;
+  @media screen and (max-width: $break-small) {
+    width: 90%;
+  }
+  &:hover {
+    margin-top: -2px;
+    transition: $animate;
+  }
+}
+
+@for $i from 1 through length($colors) {
+  .card-#{$i} {
+    box-shadow: 5px 5px 0px 0px nth($colors, $i);
+    .card-tag {
+      color: nth($colors, $i);
+      border: 2px nth($colors, $i) solid;
+    }
+    &:hover {
+      box-shadow: 15px 15px 0px 0px nth($colors, $i);
+    }
+  }
+}
+
+.card-image {
+  width: 100%;
+  max-height: 200px;
+  border-bottom: 5px black solid;
+}
+
+.card-body {
+  padding: 10px 20px;  
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 14pt;
+}
+
+.card-text {
+  font-weight: 500;
+  font-size: 11pt;
+  margin: 10px 0;
+}
+
+.card-tag {
+  color: black;
+  padding: 3px 10px;
+  border: 2px black solid;
+  font-size: 10pt;
+  margin-right: 5px;
+}

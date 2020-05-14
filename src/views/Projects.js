@@ -54,13 +54,13 @@ const Projects = () => {
 
   return (
     <div className="projects-content">
-      <input 
+      {/* <input 
         type="text" 
         className="projects-search" 
         placeholder="Search"
         value={queryValue}
         onChange={onChangeHandler} 
-      />
+      /> */}
       <ProjectList projects={projects}/>
     </div>
   );
