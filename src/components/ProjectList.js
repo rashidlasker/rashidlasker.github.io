@@ -1,20 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import ProjectCard from '../components/ProjectCard';
 import { importAll } from '../utils';
 const images = importAll(require.context('../img/projects', false, /\.(PNG|JPE?G|SVG|GIF)$/));
 
-class ProjectList extends Component {
-  constructor(props) {
-    super(props);
-  }
+const ProjectList = ({ projects }) => {
+  const projectDataKeys = Object.keys(projects);
 
-  componentWillReceiveProps(nextProps) {
-    this.previousView = this.props.location;
-  }
-
-  renderProjectList() {
-    let projectDataKeys = Object.keys(this.props.projects);
+  const Projects = () => {
     if (projectDataKeys.length === 0) {
       return(
         <h1>Oops! Can't find anything...</h1>
@@ -22,23 +15,17 @@ class ProjectList extends Component {
     } else {
       return projectDataKeys.map(key => {
         return (
-          <ProjectCard key={key} data={this.props.projects[key]} img={images[this.props.projects[key]['imageLink']]} />
+          <ProjectCard key={key} data={projects[key]} img={images[projects[key]['imageLink']]} />
         )
       })
     } 
   }
 
-  render() {
-    const { location } = this.props;
-    
-    return (
-      <div>
-        <div className="projects-list">
-          {this.renderProjectList()}
-        </div>
-      </div>
-    );
-  }
+  return (
+    <div>
+      {<Projects/>}
+    </div>
+  );
 }
 
 export default ProjectList;
