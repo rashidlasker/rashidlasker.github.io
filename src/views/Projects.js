@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import projectData from '../../data/projects.json';
-import { queryMatch } from '../../utils';
-import './Projects.css';
-import ProjectList from '../../components/ProjectList';
+import projectData from '../data/projects.json';
+import { queryMatch } from '../utils';
+import ProjectList from '../components/ProjectList';
 
 /*  
   Image notes:

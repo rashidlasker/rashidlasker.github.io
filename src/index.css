@@ -31,15 +31,3 @@ body::-webkit-scrollbar-thumb
 {
     background-color: #0984e3;
 }
-
-
-/***********************************************************************/
-/*                                                                     */
-/*                              FONTS                                  */
-/*                                                                     */
-/***********************************************************************/
-
-@font-face {
-    font-family: "Circular";
-    src: url("./fonts/circular-book.otf") format("opentype");
-}

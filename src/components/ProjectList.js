@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import ProjectCard from '../../components/ProjectCard';
-import ProjectModal from '../../components/ProjectModal';
-import { importAll } from '../../utils';
-const images = importAll(require.context('../../img/projects', false, /\.(PNG|JPE?G|SVG|GIF)$/));
+import ProjectCard from '../components/ProjectCard';
+import ProjectModal from '../components/ProjectModal';
+import { importAll } from '../utils';
+const images = importAll(require.context('../img/projects', false, /\.(PNG|JPE?G|SVG|GIF)$/));
 
 class ProjectList extends Component {
   constructor(props) {

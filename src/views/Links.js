@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import linkData from '../../data/links.json';
-import './Links.css';
-import { importAll } from '../../utils'
-const images = importAll(require.context('../../img/links', false, /\.(png|jpe?g|svg)$/));
+import linkData from '../data/links.json';
+import { importAll } from '../utils'
+const images = importAll(require.context('../img/links', false, /\.(png|jpe?g|svg)$/));
 
 class Links extends Component {
   renderLink(data){

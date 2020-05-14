@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import './App.css';
-import Home from '../Home';
-import Projects from '../Projects';
-import Links from '../Links';
+import Home from './Home';
+import Projects from './Projects';
+import Links from './Links';
 
 class App extends Component {
   constructor(props) {
