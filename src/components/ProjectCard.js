@@ -1,21 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ProjectCard extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className="project">
-        <img src={this.props.img} />
-        <div className="project-text">
-          <h3>{this.props.data['title']}</h3>
-          <p>{this.props.data['summary']}</p>
-        </div>
+const ProjectCard = ({ img, data }) => {
+  return (
+    <div className="project">
+      <img src={img} />
+      <div className="project-text">
+        <h3>{data['title']}</h3>
+        <p>{data['summary']}</p>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default ProjectCard;

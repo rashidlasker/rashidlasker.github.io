@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import ProjectCard from '../components/ProjectCard';
-import ProjectModal from '../components/ProjectModal';
 import { importAll } from '../utils';
 const images = importAll(require.context('../img/projects', false, /\.(PNG|JPE?G|SVG|GIF)$/));
 
@@ -31,18 +30,12 @@ class ProjectList extends Component {
 
   render() {
     const { location } = this.props;
-    // const modal = location.state && location.state.to === 'modal';
     
     return (
       <div>
         <div className="projects-list">
           {this.renderProjectList()}
         </div>
-        {/* <div className="modal-container">
-          <Switch location={location}>
-            <Route path="/:id" component={ProjectModal} />
-          </Switch>
-        </div> */}
       </div>
     );
   }

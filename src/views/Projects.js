@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import projectData from '../data/projects.json';
 import { queryMatch } from '../utils';
 import ProjectList from '../components/ProjectList';
@@ -10,24 +10,18 @@ import ProjectList from '../components/ProjectList';
   Screely link: https://www.screely.com/editor
 */
 
-class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: '',
-      loading: false,
-      projects: projectData,
-      showSearchBar: true
-    };
-    this.handleChange = this.handleChange.bind(this);
-  }
+const Projects = () => {
+  const [queryValue, setQueryValue] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [projects, setProjects] = useState(projectData);
 
-  queryProjects(value) {
-    let result = {}, key;
-    let query = value.toLowerCase();
+  // TODO: Better queries
+  useEffect(() => {
+    let result = {};
+    const query = queryValue.toLowerCase();
 
-    for (key in projectData) {
-      let currProject = projectData[key]
+    for (const key in projectData) {
+      const currProject = projectData[key];
       let accepted = false;
 
       if (queryMatch(query, currProject['title'])) {
@@ -49,33 +43,27 @@ class Projects extends Component {
       }
     }
 
-    this.setState({loading: false, projects: result});
-  }
+    setProjects(result);
+    setLoading(false);
+  }, [queryValue]);
 
-  handleChange(event) {
-    this.setState({value: event.target.value, loading: true});
-    this.queryProjects(event.target.value)
-  }
+  const onChangeHandler = event => {
+    setQueryValue(event.target.value);
+    setLoading(true);
+  };
 
-  renderSearchBar() {
-    return (
-      <input type="text" 
+  return (
+    <div className="projects-content">
+      <input 
+        type="text" 
         className="projects-search" 
         placeholder="Search"
-        value={this.state.value} 
-        onChange={this.handleChange} 
+        value={queryValue}
+        onChange={onChangeHandler} 
       />
-    )
-  }
-
-  render() {
-    return (
-      <div className="projects-content">
-        {this.state.showSearchBar && this.renderSearchBar()}
-        <ProjectList projects={this.state.projects}/>
-      </div>
-    );
-  }
+      <ProjectList projects={projects}/>
+    </div>
+  );
 }
 
 export default Projects;
