@@ -42,6 +42,7 @@ const Home = () => {
       href={linkData[key]['link']} 
       alt={linkData[key]['title']} 
       key={linkData[key]['title']}
+      target="_blank"
     >
       <FontAwesomeIcon 
         icon={iconMapping[key]} 
