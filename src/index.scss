@@ -79,48 +79,39 @@ nav.content {
 
 ///////////////////////////////////// BIO /////////////////////////////////////
 
-.bio-section {
+.section {
   display: inline-block;
   vertical-align: top;
-}
-
-.details {
-  @media screen and (min-width: $break-medium) {
-    width: 50%;
-  }
-}
-
-.lists {
-  @media screen and (min-width: $break-small) {
-    width: 50%;
-  }
-  @media screen and (min-width: $break-medium) {
-    width: 25%;
-  }
-}
-
-.photos {
-  @media screen and (min-width: $break-small) {
-    width: 50%;
-  }
-  @media screen and (min-width: $break-medium) {
-    width: 25%;
-  }
   img {
     width: 100%;
   }
 }
 
-.bio-subsection {
+.span-2 {
+  @media screen and (min-width: $break-medium) {
+    width: 50%;
+  }
+}
+
+.span-1 {
+  @media screen and (min-width: $break-small) {
+    width: 50%;
+  }
+  @media screen and (min-width: $break-medium) {
+    width: 25%;
+  }
+}
+
+.subsection {
   padding: 20px;
 }
 
-.bio-title {
+.title {
   margin-bottom: 20px;
   color: nth($colors, 1);
 }
 
-.bio-text {
+.text {
   margin-bottom: 20px;
 }
 

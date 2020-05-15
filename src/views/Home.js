@@ -47,51 +47,51 @@ const Home = () => {
   ))
 
   return (
-    <div className="bio-content">
-      <div className="bio-section details">
-        <div className="bio-subsection">
-          <div className="bio-title">Details</div>
-          <div className="bio-text">Hey there, I'm Rashid, a coder with a passion for scalable technology and cutting-edge design.</div>
-          <div className="bio-text">I'm currently a Software Engineer at Scale AI. In the past, I interned at Uber ATG and developed a system design course at HackCville while studying Computer + Cognitive Science at the University of Virginia.</div>
-          <div className="bio-text">Want to collaborate on a project? Let's chat.</div>
+    <div className="content">
+      <div className="section span-2">
+        <div className="subsection">
+          <div className="title">Details</div>
+          <div className="text">Hey there, I'm Rashid, a coder with a passion for scalable technology and cutting-edge design.</div>
+          <div className="text">I'm currently a Software Engineer at Scale AI. In the past, I interned at Uber ATG and developed a system design course at HackCville while studying Computer + Cognitive Science at the University of Virginia.</div>
+          <div className="text">Want to collaborate on a project? Let's chat.</div>
         </div>
-        <div className="bio-subsection">
-          <div className="bio-title">Social</div>
+        <div className="subsection">
+          <div className="title">Social</div>
           {links}
         </div>
       </div>
-      <div className="bio-section lists">
-        <div className="bio-subsection">
-          <div className="bio-title">What I Do</div>
-          <div className="bio-list-item">Frontend Development</div>
-          <div className="bio-list-item">Backend Development</div>
-          <div className="bio-list-item">System Design</div>
-          <div className="bio-list-item">Eat Food</div>
+      <div className="section span-1">
+        <div className="subsection">
+          <div className="title">What I Do</div>
+          <div className="list-item">Frontend Development</div>
+          <div className="list-item">Backend Development</div>
+          <div className="list-item">System Design</div>
+          <div className="list-item">Eat Food</div>
         </div>
-        <div className="bio-subsection">
-          <div className="bio-title">Books I've Read Recently</div>
-          <div className="bio-list-item">The Design of Everyday Things</div>
-          <div className="bio-list-item">The Three-Body Problem</div>
-          <div className="bio-list-item">The Beach</div>
-          <div className="bio-list-item">Ishmael</div>
+        <div className="subsection">
+          <div className="title">Books I've Read Recently</div>
+          <div className="list-item">The Design of Everyday Things</div>
+          <div className="list-item">The Three-Body Problem</div>
+          <div className="list-item">The Beach</div>
+          <div className="list-item">Ishmael</div>
         </div>
-        <div className="bio-subsection">
-          <div className="bio-title">Books I've Read Recently</div>
-          <div className="bio-list-item">The Design of Everyday Things</div>
-          <div className="bio-list-item">The Three-Body Problem</div>
-          <div className="bio-list-item">The Beach</div>
-          <div className="bio-list-item">Ishmael</div>
-        </div>
-      </div>
-      <div className="bio-section photos">
-        <div className="bio-subsection">
-          <div className="bio-title">Photo</div>
-          <img className="profile-pic" src={ProfilePic} alt="Rashid Lasker"/>
+        <div className="subsection">
+          <div className="title">Books I've Read Recently</div>
+          <div className="list-item">The Design of Everyday Things</div>
+          <div className="list-item">The Three-Body Problem</div>
+          <div className="list-item">The Beach</div>
+          <div className="list-item">Ishmael</div>
         </div>
       </div>
-      <div className="bio-section featured-projects">
-        <div className="bio-subsection">
-          <div className="bio-title">Featured Projects</div>
+      <div className="section span-1">
+        <div className="subsection">
+          <div className="title">Photo</div>
+          <img src={ProfilePic} alt="Rashid Lasker"/>
+        </div>
+      </div>
+      <div className="section featured-projects">
+        <div className="subsection">
+          <div className="title">Featured Projects</div>
           <ProjectList projects={featuredProjects}/>
         </div>
       </div>
