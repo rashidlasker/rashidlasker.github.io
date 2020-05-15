@@ -71,10 +71,22 @@ nav.content {
 }
 
 nav .link {
-  margin: 20px;
+  display: block;
+  margin: 20px 20px 0 20px;
   &:after {
     bottom: -5px;
     height: 5px;
+  }
+  @media screen and (min-width: $break-small) {
+    display: inline-block;
+  }
+}
+
+.divider {
+  display: none;
+  margin-top: 18px;
+  @media screen and (min-width: $break-small) {
+    display: inline-block;
   }
 }
 
