@@ -1,20 +1,26 @@
 ///////////////////////////////////// VARS /////////////////////////////////////
 $colors: #035aa6, #00909e, #40bad5, #fcbf1e;
 
-$break-small: 320px;
-$break-large: 1024px;
+$break-xsmall: 320px;
+$break-small: 768px;
+$break-medium: 1200px;
+$break-large: 1560px;
 $break-xlarge: 2048px;
 
 $animate: all 0.1s ease-in-out;
 
 ///////////////////////////////////// GENERAL /////////////////////////////////////
+* {
+  font-family: Roboto Mono, Sans-serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
 .content {
-  max-width: $break-xlarge;
+  max-width: $break-large;
   margin: 0 auto;
 }
 
@@ -27,14 +33,12 @@ nav {
 }
 
 .divider {
-  font-family: Roboto Mono, Sans-serif;
   font-size: 20pt;
 }
 
 .link {
   margin: 20px;
   font-size: 20pt;
-  font-family: Roboto Mono, Sans-serif;
   transition: $animate;
   position: relative;
   &:before,
@@ -62,64 +66,50 @@ nav {
 }
 
 ///////////////////////////////////// BIO /////////////////////////////////////
-.bio-content {
-  display: grid;
-  // grid-template-columns: repeat(4, minmax(200px,1fr));
-  // grid-template-rows: repeat(4, 1fr);
-  // grid-gap: 50px;
-  grid-template-columns: repeat(minmax(1, 4), minmax(320px, 1fr));
-  grid-gap: 1rem;
-  grid-auto-flow: dense;
-}
 
 .bio-section {
-  padding: 20px;
   display: inline-block;
   vertical-align: top;
 }
 
-.bio-section-1 {
-  grid-column: span 2;
-  grid-row: span 1;
+.details {
+  @media screen and (min-width: $break-medium) {
+    width: 50%;
+  }
 }
 
-.bio-section-2 {
-  grid-column: span 1;
-  grid-row: span 1;
+.lists {
+  @media screen and (min-width: $break-small) {
+    width: 50%;
+  }
+  @media screen and (min-width: $break-medium) {
+    width: 25%;
+  }
 }
 
-.bio-section-5 {
-  grid-column: span 1;
-  grid-row: span 1;
+.photos {
+  @media screen and (min-width: $break-small) {
+    width: 50%;
+  }
+  @media screen and (min-width: $break-medium) {
+    width: 25%;
+  }
   img {
     width: 100%;
   }
 }
 
-.bio-section-6 {
-  grid-column: span 4;
-  grid-row: span 1;
-}
-
 .bio-subsection {
-  margin-bottom: 40px;
+  padding: 20px;
 }
 
 .bio-title {
-  font-family: Roboto Mono, Sans-serif;
   margin-bottom: 20px;
   color: nth($colors, 1);
 }
 
-.bio-list-item {
-  font-family: Roboto Mono, Sans-serif;
-
-}
-
 .bio-text {
-  font-family: Roboto Mono, Sans-serif;
   margin-bottom: 20px;
-  // max-width: 500px;
 }
 
 ///////////////////////////////////// CARDS /////////////////////////////////////
@@ -131,13 +121,12 @@ nav {
 }
 
 .card {
-  font-family: Roboto Mono, Sans-serif;
   border: 5px black solid;
   margin: 20px;
   width: 300px;
   height: 425px;
   transition: $animate;
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-xsmall) {
     width: 90%;
   }
   &:hover {
