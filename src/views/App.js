@@ -11,13 +11,11 @@ const App = () => {
         <nav className="content">
           <Link className="link link-1" to="">Rashid Lasker</Link>
           <span className="divider">|</span>
-          <Link className="link link-3" to="/projects/">Projects</Link>
-          <Link className="link link-4" to="/links/">Links</Link>
+          <Link className="link link-4" to="/projects/">Projects</Link>
         </nav>
         <div className="content">
           <Route path="/" exact component={Home} />
           <Route path="/projects/" exact component={Projects} />
-          <Route path="/links/" component={Home} />
           <Route path="/projects/:id/" component={Project} />
           {/* <Route render={() => <Redirect to="/" />} />  */}
         </div>
