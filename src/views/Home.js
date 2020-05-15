@@ -16,6 +16,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
+  // TODO: Fix spacing at bottom of social and details
+  // TODO: add new list section
+
   let featuredProjects = {};
   for (const key in projectData) {
     if (projectData[key]['featured']) {
