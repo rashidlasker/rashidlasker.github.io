@@ -53,7 +53,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects-content">
+    <div className="content">
       {/* <input 
         type="text" 
         className="projects-search" 
