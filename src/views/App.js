@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/projects/" exact component={Projects} />
         <Route path="/links/" exact component={Home} />
         <Route path="/projects/:id/" component={Project} />
-        {/* <Route render={() => <Redirect to="/" />} />  */}
+        <Route path="*" render={() => <Redirect to="/" />} /> 
         <footer className="content" />
       </div>
     </Router>
