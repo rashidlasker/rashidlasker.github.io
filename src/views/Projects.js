@@ -54,14 +54,18 @@ const Projects = () => {
 
   return (
     <div className="content">
-      {/* <input 
-        type="text" 
-        className="projects-search" 
-        placeholder="Search"
-        value={queryValue}
-        onChange={onChangeHandler} 
-      /> */}
-      <ProjectList projects={projects}/>
+      <div className="section">
+        <div className="subsection">
+          {/* <input 
+            type="text" 
+            className="search" 
+            placeholder="Search projects"
+            value={queryValue}
+            onChange={onChangeHandler} 
+          /> */}
+          <ProjectList projects={projects}/>
+        </div>
+      </div>
     </div>
   );
 }
