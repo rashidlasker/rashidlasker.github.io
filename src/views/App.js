@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
 import Home from './Home';
 import Projects from './Projects';
+import Project from './Project';
 
 const App = () => {
   return (
@@ -15,8 +16,10 @@ const App = () => {
         </nav>
         <div className="content">
           <Route path="/" exact component={Home} />
-          <Route path="/projects/" component={Projects} />
+          <Route path="/projects/" exact component={Projects} />
           <Route path="/links/" component={Home} />
+          <Route path="/projects/:id/" component={Project} />
+          {/* <Route render={() => <Redirect to="/" />} />  */}
         </div>
         <footer className="content" />
       </div>

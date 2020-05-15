@@ -92,12 +92,12 @@ nav .link {
   img {
     width: 100%;
   }
-  // .link {
-  //   &:after {
-  //     bottom: -2px;
-  //     height: 2px;
-  //   }
-  // }
+  .link {
+    &:after {
+      bottom: -2px;
+      height: 2px;
+    }
+  }
 }
 
 .span-2 {
@@ -127,6 +127,14 @@ nav .link {
 .text {
   margin-bottom: 20px;
 }
+
+.list-link {
+  color: nth($colors, 2);
+  &:hover{
+    color: nth($colors, 3);
+  }
+}
+
 
 ///////////////////////////////////// CARDS /////////////////////////////////////
 .card-container {
