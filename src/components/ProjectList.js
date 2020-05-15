@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import ProjectCard from '../components/ProjectCard';
 import { importAll } from '../utils';
-const images = importAll(require.context('../img/projects', false, /\.(PNG|JPE?G|SVG|GIF)$/));
+const images = importAll(require.context('../img/project-src-sm', false, /\.(PNG|JPE?G|SVG|GIF)$/));
 
 const ProjectList = ({ projects }) => {
   const projectDataKeys = Object.keys(projects);
