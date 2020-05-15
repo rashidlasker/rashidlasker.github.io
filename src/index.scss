@@ -4,7 +4,7 @@ $colors: #035aa6, #00909e, #40bad5, #fcbf1e;
 $break-xsmall: 320px;
 $break-small: 768px;
 $break-medium: 1200px;
-$break-large: 1560px;
+$break-large: 1400px;
 $break-xlarge: 2048px;
 
 $animate: all 0.1s ease-in-out;
@@ -118,6 +118,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: -20px;
 }
 
 .card {
