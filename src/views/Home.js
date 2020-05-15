@@ -38,7 +38,11 @@ const Home = () => {
   }
 
   const links = Object.keys(linkData).map(key => (
-    <a href={linkData[key]['link']} alt={linkData[key]['title']}>
+    <a 
+      href={linkData[key]['link']} 
+      alt={linkData[key]['title']} 
+      key={linkData[key]['title']}
+    >
       <FontAwesomeIcon 
         icon={iconMapping[key]} 
         className="icon"
