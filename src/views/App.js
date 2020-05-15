@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/projects/" component={Projects} />
           <Route path="/links/" component={Home} />
         </div>
+        <footer className="content" />
       </div>
     </Router>
   );
