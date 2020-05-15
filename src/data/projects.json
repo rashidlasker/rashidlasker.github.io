@@ -7,8 +7,8 @@
         "featured": false,
         "imageLink": "carbonkarma.PNG",
         "links": {
-            "github": "https://github.com/brian-yu/carbonkarma",
-            "devpost": "https://devpost.com/software/carbonkarma"
+            "Github": "https://github.com/brian-yu/carbonkarma",
+            "Devpost": "https://devpost.com/software/carbonkarma"
         },
         "languages": ["Javascript"],
         "tools": ["Chrome API"],
@@ -23,9 +23,9 @@
         "featured": true,
         "imageLink": "poseparty.GIF",
         "links": {
-            "project": "https://poseparty.brian.lol/",
-            "github": "https://github.com/brian-yu/poseparty",
-            "devpost": "https://devpost.com/software/pose-party"
+            "Website": "https://poseparty.brian.lol/",
+            "Github": "https://github.com/brian-yu/poseparty",
+            "Devpost": "https://devpost.com/software/pose-party"
         },
         "languages": ["Javascript", "Python"],
         "tools": ["Google Cloud", "Tensorflow", "React", "Flask"],
@@ -40,8 +40,8 @@
         "featured": true,
         "imageLink": "highlightkit.PNG",
         "links": {
-            "project": "https://highlightkit.com/",
-            "github": "https://github.com/brian-yu/highlightkit"
+            "Landing Page": "https://highlightkit.com/",
+            "Github": "https://github.com/brian-yu/highlightkit"
         },
         "languages": ["Javascript"],
         "tools": ["Webpack"],
@@ -56,8 +56,8 @@
         "featured": true,
         "imageLink": "hackcville.PNG",
         "links": {
-            "project": "https://hackcville.com/course/deploy/",
-            "github": "https://github.com/hackcville/deploy"
+            "Course Website": "https://hackcville.com/course/deploy/",
+            "Github": "https://github.com/hackcville/deploy"
         },
         "languages": ["Python"],
         "tools": ["Django", "Docker", "AWS"],
@@ -85,7 +85,7 @@
         "featured": false,
         "imageLink": "reinform.JPG",
         "links": {
-            "github": "https://github.com/rashidlasker/rebu"
+            "Github": "https://github.com/rashidlasker/rebu"
         },
         "languages": ["Python"],
         "tools": ["Django", "Docker", "ElasticSearch", "Kafka", "Selenium"],
@@ -100,9 +100,9 @@
         "featured": false,
         "imageLink": "reinform.JPG",
         "links": {
-            "project": "https://reinform.me/",
-            "github": "https://github.com/brian-yu/ReInform",
-            "devpost": "https://devpost.com/software/reinform"
+            "Project": "https://reinform.me/",
+            "Github": "https://github.com/brian-yu/ReInform",
+            "Devpost": "https://devpost.com/software/reinform"
         },
         "languages": ["Javascript", "Python", "HTML/CSS"],
         "tools": ["React", "Mapbox", "Google Cloud AppEngine", "Flask"],
@@ -117,8 +117,8 @@
         "featured": false,
         "imageLink": "gameoflife.JPG",
         "links": {
-            "project": "https://rashidlasker.github.io/game-of-life/",
-            "github": "https://github.com/rashidlasker/game-of-life"
+            "Website": "https://rashidlasker.github.io/game-of-life/",
+            "Github": "https://github.com/rashidlasker/game-of-life"
         },
         "languages": ["Javascript", "HTML/CSS"],
         "tools": ["RoughJS", "Canvas Animations"],
@@ -133,9 +133,9 @@
         "featured": false,
         "imageLink": "facenormalizer.GIF",
         "links": {
-            "project": "https://rashidlasker.github.io/face-normalizer/",
-            "github": "https://github.com/rashidlasker/face-normalizer",
-            "devpost": "https://devpost.com/software/face-normalizer"
+            "Website": "https://rashidlasker.github.io/face-normalizer/",
+            "Github": "https://github.com/rashidlasker/face-normalizer",
+            "Devpost": "https://devpost.com/software/face-normalizer"
         },
         "languages": ["Javascript", "HTML/CSS"],
         "tools": ["Kairos", "clmtrackr"],
@@ -150,7 +150,7 @@
         "featured": false,
         "imageLink": "reddit.JPG",
         "links": {
-            "github": "https://github.com/rashidlasker/reddit-multireddit-scrape"
+            "Github": "https://github.com/rashidlasker/reddit-multireddit-scrape"
         },
         "languages": ["Python"],
         "tools": ["Flask"],
@@ -165,9 +165,9 @@
         "featured": false,
         "imageLink": "freightratemate.JPG",
         "links": {
-            "project": "https://rashidlasker.github.io/freight-rate-mate/",
-            "github": "https://github.com/acs3ss/freight-rate-mate",
-            "devpost": "https://devpost.com/software/trucking-risk-minimization"
+            "Website": "https://rashidlasker.github.io/freight-rate-mate/",
+            "Github": "https://github.com/acs3ss/freight-rate-mate",
+            "Devpost": "https://devpost.com/software/trucking-risk-minimization"
         },
         "languages": ["Javascript", "Python", "HTML/CSS"],
         "tools": ["Mapbox", "AWS Machine Learning"],
@@ -182,8 +182,8 @@
         "featured": false,
         "imageLink": "wdm.JPG",
         "links": {
-            "project": "https://www.npmjs.com/package/working-directory-manager",
-            "github": "https://github.com/rashidlasker/working-directory-manager"
+            "Project": "https://www.npmjs.com/package/working-directory-manager",
+            "Github": "https://github.com/rashidlasker/working-directory-manager"
         },
         "languages": ["NodeJS"],
         "tools": ["commander", "NPM"],
@@ -198,7 +198,7 @@
         "featured": false,
         "imageLink": "teachstone.JPG",
         "links": {
-            "project": "https://store.teachstone.com/"
+            "Website": "https://store.teachstone.com/"
         },
         "languages": ["PHP", "Javascript", "HTML/CSS"],
         "tools": ["Sass", "Bigcommerce"],
@@ -213,8 +213,8 @@
         "featured": false,
         "imageLink": "pillpal.JPG",
         "links": {
-            "github": "https://github.com/rashidlasker/pill-pal",
-            "devpost": "https://devpost.com/software/pillpal-f3yd81"
+            "Github": "https://github.com/rashidlasker/pill-pal",
+            "Devpost": "https://devpost.com/software/pillpal-f3yd81"
         },
         "languages": ["NodeJS", "Javascript"],
         "tools": ["AWS", "Lambda", "DynamoDB", "CloudWatch", "SNS Push"],
@@ -229,8 +229,8 @@
         "featured": false,
         "imageLink": "wireframe.JPG",
         "links": {
-            "project": "http://wireframewebsites.com/rashidlasker/",
-            "github": "https://github.com/rashidlasker/launch-homepage"
+            "Project": "http://wireframewebsites.com/rashidlasker/",
+            "Github": "https://github.com/rashidlasker/launch-homepage"
         },
         "languages": ["HTML/CSS", "Javascript"],
         "tools": ["WebGL"],
@@ -245,8 +245,8 @@
         "featured": false,
         "imageLink": "kin.JPG",
         "links": {
-            "project": "https://defaulttidus.itch.io/kin",
-            "github": "https://github.com/UVASGD/spring-2017-kin"
+            "Project": "https://defaulttidus.itch.io/kin",
+            "Github": "https://github.com/UVASGD/spring-2017-kin"
         },
         "languages": ["C#"],
         "tools": ["Unity3D"],
