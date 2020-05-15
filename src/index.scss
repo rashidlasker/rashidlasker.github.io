@@ -20,6 +20,27 @@ a {
   color: inherit;
 }
 
+.link {
+  transition: $animate;
+  position: relative;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    height: 5px;
+    transition: $animate;
+    left: 0;
+  }
+  &:hover {
+    &:before,
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
 .content {
   max-width: $break-large;
   margin: 0 auto;
@@ -49,25 +70,11 @@ nav.content {
   margin-bottom: 30px;
 }
 
-.link {
+nav .link {
   margin: 20px;
-  transition: $animate;
-  position: relative;
-  &:before,
   &:after {
-    content: "";
-    position: absolute;
     bottom: -5px;
-    width: 0;
     height: 5px;
-    transition: $animate;
-    left: 0;
-  }
-  &:hover {
-    &:before,
-    &:after {
-      width: 100%;
-    }
   }
 }
 
@@ -85,6 +92,12 @@ nav.content {
   img {
     width: 100%;
   }
+  // .link {
+  //   &:after {
+  //     bottom: -2px;
+  //     height: 2px;
+  //   }
+  // }
 }
 
 .span-2 {
