@@ -123,7 +123,7 @@ nav.content {
   border: 5px black solid;
   margin: 20px;
   width: 300px;
-  height: 425px;
+  height: 425px; // change to min-height?
   transition: $animate;
   &:hover {
     margin-top: -2px;
