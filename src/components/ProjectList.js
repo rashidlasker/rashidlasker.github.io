@@ -5,7 +5,7 @@ import { importAll } from '../utils';
 const images = importAll(require.context('../img/project-src-sm', false, /\.(PNG|JPE?G|SVG|GIF)$/));
 
 const ProjectList = ({ projects }) => {
-  const projectDataKeys = Object.keys(projects);
+  const projectDataKeys = Object.keys(projects).filter(key => projects[key]['visible']);
 
   return (
     <div className="card-container">

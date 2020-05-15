@@ -1,8 +1,16 @@
 import React from 'react';
 import ProfilePic from '../img/rashid.JPG'
-import Projects from './Projects';
+import ProjectList from '../components/ProjectList';
+import projectData from '../data/projects.json';
 
 const Home = () => {
+  let featuredProjects = {};
+  for (const key in projectData) {
+    if (projectData[key]['featured']) {
+      featuredProjects[key] = projectData[key];
+    }
+  }
+
   return (
     <div className="bio-content">
       <div className="bio-section details">
@@ -49,7 +57,7 @@ const Home = () => {
       <div className="bio-section featured-projects">
         <div className="bio-subsection">
           <div className="bio-title">Featured Projects</div>
-          <Projects />
+          <ProjectList projects={featuredProjects}/>
         </div>
       </div>
     </div>
