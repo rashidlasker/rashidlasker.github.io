@@ -15,6 +15,7 @@ const ProjectList = ({ projects }) => {
           return (
             <ProjectCard 
               key={key} 
+              projectKey={key} 
               data={projects[key]} 
               img={images[projects[key]['imageLink']]}
               index={index}

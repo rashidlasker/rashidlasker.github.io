@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-const ProjectCard = ({ img, data, index }) => {
+const ProjectCard = ({ projectKey, img, data, index }) => {
   const cardType = index % 4 + 1;
   const tags = data['tags'].map(tag => (
     <span key={tag} className="card-tag">{tag.toUpperCase()}</span>
   ));
   return (
-    <div className={"card card-" + cardType}>
-      <a href={data['projectLink']}>
+    <Link className="card-wrapper" to={"/projects/" + projectKey}>
+      <div className={"card card-" + cardType}>
         <img src={img} className="card-image"/>
         <div className="card-body">
           <div className="card-title">{data['title']}</div>
@@ -16,8 +17,8 @@ const ProjectCard = ({ img, data, index }) => {
             {tags}
           </div>
         </div>
-      </a>
-    </div>
+      </div>
+    </Link>
   );
 }
 

@@ -126,14 +126,19 @@ nav.content {
 
 .card {
   border: 5px black solid;
-  margin: 20px;
   width: 300px;
   height: 425px; // change to min-height?
   transition: $animate;
+}
+
+.card-wrapper {
+  margin: 20px;
+  transition: $animate;
   &:hover {
-    margin-top: -2px;
+    margin-top: 10px;
     transition: $animate;
   }
+
 }
 
 @for $i from 1 through length($colors) {
