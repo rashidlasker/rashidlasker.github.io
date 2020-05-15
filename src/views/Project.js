@@ -20,6 +20,7 @@ const Project = () => {
       <a 
         href={project['links'][key]}
         target="_blank"
+        rel="noopener noreferrer"
       >
         {key}
         {' '}
