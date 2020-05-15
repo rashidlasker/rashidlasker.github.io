@@ -25,20 +25,17 @@ a {
 }
 
 ///////////////////////////////////// NAV /////////////////////////////////////
-nav {
+nav.content {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.divider {
   font-size: 20pt;
+  margin-bottom: 30px;
 }
 
 .link {
   margin: 20px;
-  font-size: 20pt;
   transition: $animate;
   position: relative;
   &:before,
