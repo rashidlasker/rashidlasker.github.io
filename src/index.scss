@@ -124,7 +124,7 @@ nav .link {
   color: nth($colors, 1);
 }
 
-.text {
+.text:not(:last-child) {
   margin-bottom: 20px;
 }
 
