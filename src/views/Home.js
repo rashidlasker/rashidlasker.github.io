@@ -2,6 +2,18 @@ import React from 'react';
 import ProfilePic from '../img/rashid.JPG'
 import ProjectList from '../components/ProjectList';
 import projectData from '../data/projects.json';
+import linkData from '../data/links.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-regular-svg-icons';
+import { 
+  faGithub, 
+  faLinkedinIn, 
+  faDev, 
+  faMediumM, 
+  faCodepen, 
+  faSpotify, 
+  faInstagram, 
+} from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   let featuredProjects = {};
@@ -10,6 +22,26 @@ const Home = () => {
       featuredProjects[key] = projectData[key];
     }
   }
+
+  const iconMapping = {
+    'github': faGithub,
+    'linkedin': faLinkedinIn,
+    'devpost': faDev,
+    'medium': faMediumM,
+    'codepen': faCodepen,
+    'resume': faFile,
+    'spotify': faSpotify,
+    'instagram': faInstagram
+  }
+
+  const links = Object.keys(linkData).map(key => (
+    <a href={linkData[key]['link']} alt={linkData[key]['title']}>
+      <FontAwesomeIcon 
+        icon={iconMapping[key]} 
+        className="icon"
+      />
+    </a>
+  ))
 
   return (
     <div className="bio-content">
@@ -22,7 +54,7 @@ const Home = () => {
         </div>
         <div className="bio-subsection">
           <div className="bio-title">Social</div>
-          <div className="bio-text">All my media goes here.</div>
+          {links}
         </div>
       </div>
       <div className="bio-section lists">

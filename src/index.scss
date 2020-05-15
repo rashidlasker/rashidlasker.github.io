@@ -25,6 +25,16 @@ a {
   margin: 0 auto;
 }
 
+.icon {
+  font-size: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: nth($colors, 2);
+  &:hover{
+    color: nth($colors, 3);
+  }
+}
+
 ///////////////////////////////////// NAV /////////////////////////////////////
 nav.content {
   display: flex;
