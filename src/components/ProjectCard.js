@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectCard = ({ img, data, index }) => {
   const cardType = index % 4 + 1;
   const tags = data['tags'].map(tag => (
-  <span className="card-tag">{tag.toUpperCase()}</span>
+    <span className="card-tag">{tag.toUpperCase()}</span>
   ));
   return (
     <div className={"card card-" + cardType}>
