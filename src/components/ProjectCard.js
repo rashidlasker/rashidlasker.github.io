@@ -9,7 +9,7 @@ const ProjectCard = ({ projectKey, img, data, index }) => {
   return (
     <Link className="card-wrapper" to={"/projects/" + projectKey}>
       <div className={"card card-" + cardType}>
-        <img src={img} className="card-image"/>
+        <img src={img} alt={projectKey} className="card-image"/>
         <div className="card-body">
           <div className="card-title">{data['title']}</div>
           <div className="card-text">{data['summary']}</div>
