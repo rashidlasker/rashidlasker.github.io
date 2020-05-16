@@ -39,6 +39,10 @@ const Project = () => {
     <div key={tool} className="list-item">{tool}</div>
   ));
 
+  const description = project['description'].map(line => (
+    <div key={line} className="text">{line}</div>
+  ));
+
   return (
     <div className="content">
       <div className="section span-1">
@@ -64,7 +68,7 @@ const Project = () => {
       <div className="section span-2">
         <div className="subsection">
           <div className="title">Details</div>
-          <div className="text">{project['description']}</div>
+          {description}
         </div>
       </div>
       <div className="section">

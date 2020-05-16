@@ -2,7 +2,10 @@
     "carbonkarma": {
         "title": "CarbonKarma",
         "summary": "A browser extension that informs users about the carbon cost of things they buy online",
-        "description": "CarbonKarma is a browser extension that is designed to inform users of the carbon emissions that are tied to the production, packaging, and transport of things they buy online. We annotate Amazon products with the carbon emissions so that shoppers are informed of how their shopping impacts the environment.",
+        "description": [
+            "CarbonKarma is a browser extension that is designed to inform users of the carbon emissions that are tied to the production, packaging, and transport of things they buy online.",
+            "We annotate Amazon products with the carbon emissions so that shoppers are informed of how their shopping impacts the environment."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "carbonkarma.PNG",
@@ -18,7 +21,10 @@
     "poseparty": {
         "title": "PoseParty",
         "summary": "A social exercise game you can play while social distancing",
-        "description": "Over the course of this Coronavirus quarantine, we've discovered that it's significantly harder to connect with friends in a way that promotes physical activity. We wanted to solve this issue with a fun game that encourages a whole group of friends to get out of their chairs in an exciting and competitive way. PoseParty is a game where players have to strike and hold the right pose to earn the most points. Each round is fast-paced, with a pose that a player has to hold for a random time duration. After several rounds, the person with the most points wins!",
+        "description": [
+            "Over the course of this Coronavirus quarantine, we've discovered that it's significantly harder to connect with friends in a way that promotes physical activity. We wanted to solve this issue with a fun game that encourages a whole group of friends to get out of their chairs in an exciting and competitive way.",
+            "PoseParty is a game where players have to strike and hold the right pose to earn the most points. Each round is fast-paced, with a pose that a player has to hold for a random time duration. After several rounds, the person with the most points wins!"
+        ],
         "visible": true,
         "featured": true,
         "imageLink": "poseparty.GIF",
@@ -35,7 +41,9 @@
     "highlightkit": {
         "title": "HighlightKit",
         "summary": "Social highlighting on the web in just one line of code.",
-        "description": "",
+        "description": [
+            ""
+        ],
         "visible": true,
         "featured": true,
         "imageLink": "highlightkit.PNG",
@@ -51,7 +59,9 @@
     "deploy": {
         "title": "Deploy",
         "summary": "A course at HackCville designed to teach you how modern scalable applications are built.",
-        "description": "",
+        "description": [
+            ""
+        ],
         "visible": true,
         "featured": true,
         "imageLink": "hackcville.PNG",
@@ -67,7 +77,9 @@
     "uberatg": {
         "title": "AVMaps History Service",
         "summary": "Enabling the visualization of audit and traceability information.",
-        "description": "This system allows users to visualize diffs between features and map areas across map versions, allowing auditors to quickly review and identify changes in map versions. The primary goal of this project is to improve the efficiency of the quality team while performing root cause analysis",
+        "description": [
+            "This system allows users to visualize diffs between features and map areas across map versions, allowing auditors to quickly review and identify changes in map versions. The primary goal of this project is to improve the efficiency of the quality team while performing root cause analysis"
+        ],
         "visible": true,
         "featured": true,
         "imageLink": "uber.PNG",
@@ -80,7 +92,9 @@
     "rebu": {
         "title": "Rebu",
         "summary": "A marketplace where people can buy/sell homemade meals.",
-        "description": "This web app connects home chefs looking to break into the food marketplace with folks in their neighborhood who are hungry for a good meal. Customers can go to the website, choose from an array of home-cooked options, pay online and pick up dinner within minutes of placing their order. This app was a project for a class at UVA called Internet Scale Applications.",
+        "description": [
+            "This web app connects home chefs looking to break into the food marketplace with folks in their neighborhood who are hungry for a good meal. Customers can go to the website, choose from an array of home-cooked options, pay online and pick up dinner within minutes of placing their order. This app was a project for a class at UVA called Internet Scale Applications."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "reinform.JPG",
@@ -95,7 +109,10 @@
     "reinform": {
         "title": "ReInform",
         "summary": "A web app to increase congressional accountability by giving voters a clear snapshot of a representative's legislative history",
-        "description": "This web app plots congressional representatives on a map in their respective districts all across the country. Users can travel from from state to state on the map to see how representatives are spread out in terms of location and party. Users can then click on the name or location of a representative to view information on their voting history, funding, and viewpoints. Users are also given each representative's contact information if they want to pursue further actionable steps. This project won First Place at Disrupt the District.",
+        "description": [
+            "This web app plots congressional representatives on a map in their respective districts all across the country.",
+            "Users can travel from from state to state on the map to see how representatives are spread out in terms of location and party. Users can then click on the name or location of a representative to view information on their voting history, funding, and viewpoints. Users are also given each representative's contact information if they want to pursue further actionable steps. This project won First Place at Disrupt the District."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "reinform.JPG",
@@ -112,7 +129,9 @@
     "gameoflife": {
         "title": "Game of Life",
         "summary": "Conway's Game of Life using RoughJS.",
-        "description": "This version of Conway's Game of Life was made to learn how to use HTML5 Canvas animations and implement them in an interactive format.",
+        "description": [
+            "This version of Conway's Game of Life was made to learn how to use HTML5 Canvas animations and implement them in an interactive format."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "gameoflife.JPG",
@@ -128,7 +147,10 @@
     "facenormalizer": {
         "title": "Face Normalizer",
         "summary": "Eliminating racial biases from AI algorithms with normalization preprocessing",
-        "description": "The past few years have been rife with news about racial biases within AI algorithms. One of the primary problems with AI today is how it can manifest inherent human biases in actual applications. Most solutions to this problem usually deal with completely retooling individual AI algorithms to reduce bias. This is a very inefficient and resource-heavy approach for most companies. Our solution is to have an image/video preprocessor that normalizes faces before they are analyzed by AI. This allows our product to be easily injected and implemented into existing software stacks as a single discrete step.",
+        "description": [
+            "The past few years have been rife with news about racial biases within AI algorithms. One of the primary problems with AI today is how it can manifest inherent human biases in actual applications.",
+            "Most solutions to this problem usually deal with completely retooling individual AI algorithms to reduce bias. This is a very inefficient and resource-heavy approach for most companies. Our solution is to have an image/video preprocessor that normalizes faces before they are analyzed by AI. This allows our product to be easily injected and implemented into existing software stacks as a single discrete step."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "facenormalizer.GIF",
@@ -145,7 +167,9 @@
     "multiredditscraper": {
         "title": "Multi Reddit Scraper",
         "summary": "A Flask webserver API for searching through posts and comments in multiple programming subreddits.",
-        "description": "This project was a coding challenge for Torch Technology. The task was to create an API that aggregates the posts and comments from a list of selected programming subreddits and make them searchable.",
+        "description": [
+            "This project was a coding challenge for Torch Technology. The task was to create an API that aggregates the posts and comments from a list of selected programming subreddits and make them searchable."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "reddit.JPG",
@@ -160,7 +184,10 @@
     "freightratemate": {
         "title": "Freight Rate Mate",
         "summary": "A system designed to minimize risk in the shipping industry using real-time data and machine learning.",
-        "description": "This web app plots shipping vehicles on a map according to their real-time location and status. Using a machine learning model, we calculate the statistical risk that each trucker is affording using their real-time traits. This information allows shipping insurers to dynamically assess risk levels and monitor shipping progess, which allows them to more accurately set insurance rates. The trucks in the demo are simulated. This project was a finalist at VTHacks 2018.",
+        "description": [
+            "This web app plots shipping vehicles on a map according to their real-time location and status. Using a machine learning model, we calculate the statistical risk that each trucker is affording using their real-time traits. This information allows shipping insurers to dynamically assess risk levels and monitor shipping progess, which allows them to more accurately set insurance rates. The trucks in the demo are simulated.",
+            "This project was a finalist at VTHacks 2018."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "freightratemate.JPG",
@@ -177,7 +204,9 @@
     "wdm": {
         "title": "Working Directory Manager",
         "summary": "Command line directory manager for switching between multiple projects",
-        "description": "This project is a command line utility for switching between multiple projects. It was built using using NodeJS and deployed through NPM",
+        "description": [
+            "This project is a command line utility for switching between multiple projects. It was built using using NodeJS and deployed through NPM"
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "wdm.JPG",
@@ -193,7 +222,9 @@
     "teachstone": {
         "title": "Teachstone Store",
         "summary": "E-commerce site for Teachstone, a local education company",
-        "description": "This project consisted of a full redesign of Teachstone's store theme during my time at Storyware.",
+        "description": [
+            "This project consisted of a full redesign of Teachstone's store theme during my time at Storyware."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "teachstone.JPG",
@@ -208,7 +239,10 @@
     "pillpal": {
         "title": "PillPal",
         "summary": "A suite of shared-responsibility tools for medication adherence",
-        "description": "PillPal is a comprehensive suite of tools that develop a shared network of responsibility to remind patients of the times they should be taking their medications as well as their prescribed dosages. On the patient-side, the system uses Alexa to give a vocal reminder of which medications should be taken at which time. Because mobile interfaces can be difficult to use for this demographic, we wanted our project to provide a sense of interpersonal communication, improving accessibility. A series of voice-enabled commands allow patients to learn more about the drugs they're taking, why they're taking them, and how often they should be taken.",
+        "description": [
+            "PillPal is a comprehensive suite of tools that develop a shared network of responsibility to remind patients of the times they should be taking their medications as well as their prescribed dosages. On the patient-side, the system uses Alexa to give a vocal reminder of which medications should be taken at which time.",
+            "Because mobile interfaces can be difficult to use for this demographic, we wanted our project to provide a sense of interpersonal communication, improving accessibility. A series of voice-enabled commands allow patients to learn more about the drugs they're taking, why they're taking them, and how often they should be taken."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "pillpal.JPG",
@@ -224,7 +258,9 @@
     "launchweb": {
         "title": "Launch Web Portfolio",
         "summary": "Web portfolio for summer UI/UX design program",
-        "description": "This portfolio is a collection of various small design ideas and techniques from the summer of 2017.",
+        "description": [
+            "This portfolio is a collection of various small design ideas and techniques from the summer of 2017."
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "wireframe.JPG",
@@ -240,7 +276,9 @@
     "kin": {
         "title": "Kin",
         "summary": "A 2D open-world, action-adventure role-playing game built using Unity",
-        "description": "Kin is a 2D open-world, action-adventure role-playing game where players explore a fictional New World as an order of European monks. Players can befriend the natives, discover terrible and primordial secrets, collect resources for the order, build structures, craft runes to augment their sword, and slay ancient gods. Time is ticking and if it should run out before the player defeats the pantheon, everything will be for naught!",
+        "description": [
+            "Kin is a 2D open-world, action-adventure role-playing game where players explore a fictional New World as an order of European monks. Players can befriend the natives, discover terrible and primordial secrets, collect resources for the order, build structures, craft runes to augment their sword, and slay ancient gods. Time is ticking and if it should run out before the player defeats the pantheon, everything will be for naught!"
+        ],
         "visible": true,
         "featured": false,
         "imageLink": "kin.JPG",
