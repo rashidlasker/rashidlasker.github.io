@@ -15,6 +15,8 @@ const Project = () => {
 
   const project = projectData[id];
 
+  document.title = project["title"] + " | Rashid Lasker";
+
   const links = Object.keys(project['links']).map(key => (
     <div key={key} className="list-link">
       <a 

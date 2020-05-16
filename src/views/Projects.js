@@ -11,6 +11,8 @@ import ProjectList from '../components/ProjectList';
 */
 
 const Projects = () => {
+  document.title = "Projects | Rashid Lasker";
+
   const [queryValue, setQueryValue] = useState('');
   const [loading, setLoading] = useState(false);
   const [projects, setProjects] = useState(projectData);

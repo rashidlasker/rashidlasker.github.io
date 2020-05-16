@@ -16,6 +16,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
+  document.title = "Home | Rashid Lasker";
+
   let featuredProjects = {};
   for (const key in projectData) {
     if (projectData[key]['featured']) {
