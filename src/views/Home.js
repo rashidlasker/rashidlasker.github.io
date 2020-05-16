@@ -16,9 +16,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
-  // TODO: Fix spacing at bottom of social and details
-  // TODO: add new list section
-
   let featuredProjects = {};
   for (const key in projectData) {
     if (projectData[key]['featured']) {
@@ -63,7 +60,9 @@ const Home = () => {
         </div>
         <div className="subsection">
           <div className="title">Social</div>
-          {links}
+          <div className="social-icon-container">
+            {links}
+          </div>
         </div>
       </div>
       <div className="section span-1">
