@@ -56,7 +56,7 @@ const Home = () => {
         <div className="subsection">
           <div className="title">Details</div>
           <div className="text">Hey there, I'm Rashid, a coder with a passion for scalable technology and cutting-edge design.</div>
-          <div className="text">I'm currently a Software Engineer at Scale AI. In the past, I interned at Uber ATG and worked on 3D high-definition maps. I also developed a system design course at a nonprofit called HackCville while studying Computer + Cognitive Science at the University of Virginia.</div>
+          <div className="text">I'm currently a Software Engineer at <a className="list-link" href="https://scale.com/" target="_blank" rel="noopener noreferrer">Scale AI</a>. In the past, I interned at <a className="list-link" href="https://www.uber.com/us/en/atg/" target="_blank" rel="noopener noreferrer">Uber ATG</a> and worked on 3D high-definition maps. I also developed a system design course at a nonprofit called <a className="list-link" href="https://hackcville.com/" target="_blank" rel="noopener noreferrer">HackCville</a> while studying Computer + Cognitive Science at the University of Virginia.</div>
           <div className="text">Want to collaborate on a project? <a className="list-link" href="mailto:rashidlasker@gmail.com">Let's chat.</a></div>
         </div>
         <div className="subsection">
