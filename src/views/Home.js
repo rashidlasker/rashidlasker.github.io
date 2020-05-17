@@ -54,7 +54,7 @@ const Home = () => {
     <div className="content">
       <div className="section span-2">
         <div className="subsection">
-          <div className="title">Details</div>
+          <div className="title">Bio</div>
           <div className="text">Hey there, I'm Rashid, a coder with a passion for scalable technology and cutting-edge design.</div>
           <div className="text">I'm currently a Software Engineer at <a className="list-link" href="https://scale.com/" target="_blank" rel="noopener noreferrer">Scale AI</a>. In the past, I interned at <a className="list-link" href="https://www.uber.com/us/en/atg/" target="_blank" rel="noopener noreferrer">Uber ATG</a> and worked on 3D high-definition maps. I also developed a system design course at a nonprofit called <a className="list-link" href="https://hackcville.com/" target="_blank" rel="noopener noreferrer">HackCville</a> while studying Computer + Cognitive Science at the University of Virginia.</div>
           <div className="text">Want to collaborate on a project? <a className="list-link" href="mailto:rashidlasker@gmail.com">Let's chat.</a></div>
@@ -74,17 +74,17 @@ const Home = () => {
           <div className="list-item">System Design</div>
         </div>
         <div className="subsection">
-          <div className="title">Books I've Read Recently</div>
+          <div className="title">Books I've Recently Read</div>
           <div className="list-item">The Design of Everyday Things</div>
           <div className="list-item">The Three-Body Problem</div>
           <div className="list-item">The Beach</div>
           <div className="list-item">Ishmael</div>
         </div>
         <div className="subsection">
-          <div className="title">Hobbies</div>
+          <div className="title">Things I'm Learning</div>
+          <div className="list-item">ROS + Robotics</div>
           <div className="list-item">Hand Drumming</div>
-          <div className="list-item">Dancing</div>
-          <div className="list-item">Cooking</div>
+          <div className="list-item">Latin Dancing</div>
         </div>
       </div>
       <div className="section span-1">

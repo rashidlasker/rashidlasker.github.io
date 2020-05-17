@@ -145,7 +145,7 @@
         "summary": "A marketplace where people can buy/sell homemade meals.",
         "description": [
             "This web app connects home chefs looking to break into the food marketplace with folks in their neighborhood who are hungry for a good meal. Customers can go to the website, choose from an array of home-cooked options, pay online and pick up dinner within minutes of placing their order.",
-            "This app was a project for a class at UVA called Internet Scale Applications. Over the course of building it, I learned several scalability concepts like containerization, batch processing, MapReduce, and so much more."
+            "This app was a project for a class at UVA called Internet Scale Applications. Over the course of building it, I learned several scalability concepts including containerization, batch processing, MapReduce, and so much more."
         ],
         "visible": true,
         "featured": false,
