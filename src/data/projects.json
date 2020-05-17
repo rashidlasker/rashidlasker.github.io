@@ -301,7 +301,7 @@
         "title": "Teachstone Store",
         "summary": "E-commerce site for Teachstone, a local education company",
         "description": [
-            "This project consisted of a full redesign of Teachstone's store theme during my time at Storyware."
+            "This project consisted of a full redesign of Teachstone's store theme during my time interning at Storyware."
         ],
         "visible": true,
         "featured": false,
@@ -310,15 +310,21 @@
             {
                 "caption": "Store homepage",
                 "filename": "teachstone.JPG",
-                "class": "span-4"
+                "class": "span-2"
+            },
+            {
+                "caption": "Search page",
+                "filename": "teachstone-search.JPG",
+                "class": "span-2"
             }
         ],
         "links": {
-            "Website": "https://store.teachstone.com/"
+            "Store Website": "https://store.teachstone.com/",
+            "Storyware": "https://storyware.co/"
         },
         "languages": ["PHP", "Javascript", "HTML/CSS"],
         "tools": ["Sass", "Bigcommerce"],
-        "tags": ["design", "redesign"],
+        "tags": ["design", "Storyware"],
         "year": "2017"
     },
     "pillpal": {
@@ -326,7 +332,8 @@
         "summary": "A suite of shared-responsibility tools for medication adherence",
         "description": [
             "PillPal is a comprehensive suite of tools that develop a shared network of responsibility to remind patients of the times they should be taking their medications as well as their prescribed dosages. On the patient-side, the system uses Alexa to give a vocal reminder of which medications should be taken at which time.",
-            "Because mobile interfaces can be difficult to use for this demographic, we wanted our project to provide a sense of interpersonal communication, improving accessibility. A series of voice-enabled commands allow patients to learn more about the drugs they're taking, why they're taking them, and how often they should be taken."
+            "Because mobile interfaces can be difficult to use for this demographic, we wanted our project to provide a sense of interpersonal communication, improving accessibility. A series of voice-enabled commands allow patients to learn more about the drugs they're taking, why they're taking them, and how often they should be taken.",
+            "This project was submitted to MedHacks in 2017 and won the award for Best Use of Amazon Web Services."
         ],
         "visible": true,
         "featured": false,
@@ -344,7 +351,7 @@
         },
         "languages": ["NodeJS", "Javascript"],
         "tools": ["AWS", "Lambda", "DynamoDB", "CloudWatch", "SNS Push"],
-        "tags": ["medicine", "Alexa Skill"],
+        "tags": ["Hackathon", "AWS", "Alexa"],
         "year": "2017"
     },
     "launchweb": {
@@ -364,12 +371,11 @@
             }
         ],
         "links": {
-            "Project": "http://wireframewebsites.com/rashidlasker/",
             "Github": "https://github.com/rashidlasker/launch-homepage"
         },
         "languages": ["HTML/CSS", "Javascript"],
         "tools": ["WebGL"],
-        "tags": ["launch", "design"],
+        "tags": ["design", "hackcville"],
         "year": "2017"
     },
     "kin": {
@@ -405,7 +411,7 @@
         },
         "languages": ["C#"],
         "tools": ["Unity3D"],
-        "tags": ["game development", "AI"],
+        "tags": ["Game development", "AI"],
         "year": "2016"
     }
 }
