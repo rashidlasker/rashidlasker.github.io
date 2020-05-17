@@ -122,12 +122,6 @@ nav .link {
   img {
     width: 100%;
   }
-  .link {
-    &:after {
-      bottom: -2px;
-      height: 2px;
-    }
-  }
 }
 
 .span-2 {
@@ -189,7 +183,7 @@ nav .link {
 .card {
   border: 5px black solid;
   width: 300px;
-  height: 425px; // change to min-height?
+  min-height: 425px;
   transition: $animate;
 }
 
@@ -200,7 +194,6 @@ nav .link {
     margin-top: 10px;
     transition: $animate;
   }
-
 }
 
 @for $i from 1 through length($colors) {
