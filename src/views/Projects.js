@@ -3,13 +3,6 @@ import projectData from '../data/projects.json';
 import { queryMatch } from '../utils';
 import ProjectList from '../components/ProjectList';
 
-/*  
-  Image notes:
-  UI colors here: https://flatuicolors.com/palette/us
-  Thumbnail dimensions: 700x439
-  Screely link: https://www.screely.com/editor
-*/
-
 const Projects = () => {
   document.title = "Projects | Rashid Lasker";
 
