@@ -56,7 +56,7 @@ const Home = () => {
         <div className="subsection">
           <div className="title">Details</div>
           <div className="text">Hey there, I'm Rashid, a coder with a passion for scalable technology and cutting-edge design.</div>
-          <div className="text">I'm currently a Software Engineer at Scale AI. In the past, I interned at Uber ATG and developed a system design course at HackCville while studying Computer + Cognitive Science at the University of Virginia.</div>
+          <div className="text">I'm currently a Software Engineer at Scale AI. In the past, I interned at Uber ATG and worked on 3D high-definition maps. I also developed a system design course at a nonprofit called HackCville while studying Computer + Cognitive Science at the University of Virginia.</div>
           <div className="text">Want to collaborate on a project? <a className="list-link" href="mailto:rashidlasker@gmail.com">Let's chat.</a></div>
         </div>
         <div className="subsection">

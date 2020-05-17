@@ -3,8 +3,8 @@
         "title": "CarbonKarma",
         "summary": "A browser extension that informs users about the carbon cost of things they buy online.",
         "description": [
-            "CarbonKarma is a browser extension that is designed to inform users of the carbon emissions that are tied to the production, packaging, and transport of things they buy online.",
-            "We annotate Amazon products with the carbon emissions so that shoppers are informed of how their shopping impacts the environment.",
+            "CarbonKarma is a browser extension that is designed to inform users of the carbon emissions that come from producing, packaging, and transporting things they buy online.",
+            "We annotate Amazon products with relevant carbon data so that shoppers are informed of how their shopping impacts the environment.",
             "This project was an Honorable Mention at EarthxHack 2020."
         ],
         "visible": true,
@@ -50,7 +50,7 @@
             "Devpost": "https://devpost.com/software/pose-party"
         },
         "languages": ["Javascript", "Python"],
-        "tools": ["Google Cloud", "Tensorflow", "React", "Flask"],
+        "tools": ["Google Cloud", "Tensorflow", "React", "Flask", "Twilio Video API", "Websockets"],
         "tags": ["Websockets", "ML", "WebRTC"],
         "year": "2020"
     },
@@ -80,7 +80,7 @@
             "Github": "https://github.com/brian-yu/highlightkit"
         },
         "languages": ["Javascript", "Go"],
-        "tools": ["Webpack", "Docker"],
+        "tools": ["Webpack", "Browser Fingerprinting"],
         "tags": ["Web Tool", "Javascript"],
         "year": "2020"
     },
@@ -119,7 +119,7 @@
         "title": "AVMaps History Service",
         "summary": "Enabling the visualization of audit and traceability information for HD maps.",
         "description": [
-            "While working at Uber's Advanced Technology Group, I worked on a system to allow users to visualize diffs between features and map areas across map versions. This functionality allowed auditors to quickly review and identify changes in map versions over the course of map production. The primary goal of this project was to improve the efficiency of the quality team while performing root cause analysis.",
+            "While working at Uber's Advanced Technology Group, I worked on a system to allow users to visualize differences between features and map areas across map versions. This functionality allowed auditors to quickly review and identify changes in map versions over the course of map production. The primary goal of this project was to improve the efficiency of the quality team while performing root cause analysis.",
             "While working on this project, I gained exposure to all parts of the stack, including database interactions, backend programming, API layer design, and frontend 3D rendering."
         ],
         "visible": true,
@@ -135,8 +135,8 @@
         "links": {
             "Uber ATG": "https://www.uber.com/us/en/atg/"
         },
-        "languages": ["Javascript", "C++", "Protocol Buffers"],
-        "tools": ["FusionJS", "ReactJS", "GMock", "Mapbox"],
+        "languages": ["Javascript", "C++"],
+        "tools": ["FusionJS", "ReactJS", "GMock", "Protocol Buffers", "Mapbox"],
         "tags": ["Internship", "fullstack"],
         "year": "2019"
     },
@@ -156,7 +156,7 @@
             "Course Website": "https://github.com/thomaspinckney3/cs4501/"
         },
         "languages": ["Python", "HTML/CSS", "Javascript"],
-        "tools": ["Django", "Docker", "ElasticSearch", "Kafka", "Selenium"],
+        "tools": ["Django", "Docker", "HAProxy", "ElasticSearch", "Kafka", "Spark"],
         "tags": ["System Design", "Fullstack"],
         "year": "2019"
     },
@@ -273,7 +273,7 @@
         "title": "Freight Rate Mate",
         "summary": "A system designed to minimize risk in the shipping industry using real-time data and machine learning.",
         "description": [
-            "This web app plots shipping vehicles on a map according to their real-time location and status. Using a machine learning model, we calculate the statistical risk that each trucker is affording using their real-time traits. This information allows shipping insurers to dynamically assess risk levels and monitor shipping progess, which allows them to more accurately set insurance rates. The trucks in the demo are simulated.",
+            "This web app plots shipping vehicles on a map according to their real-time location and status. Using a machine learning model, we calculate the statistical risk that each trucker is affording using their real-time traits. This information allows shipping insurers to dynamically assess risk levels and monitor shipping progress, which allows them to more accurately set insurance rates. The trucks in the demo are simulated.",
             "This project was a finalist at VTHacks 2018."
         ],
         "visible": true,
