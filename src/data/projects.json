@@ -199,7 +199,8 @@
         "summary": "Eliminating racial biases from AI algorithms with normalization preprocessing",
         "description": [
             "The past few years have been rife with news about racial biases within AI algorithms. One of the primary problems with AI today is how it can manifest inherent human biases in actual applications.",
-            "Most solutions to this problem usually deal with completely retooling individual AI algorithms to reduce bias. This is a very inefficient and resource-heavy approach for most companies. Our solution is to have an image/video preprocessor that normalizes faces before they are analyzed by AI. This allows our product to be easily injected and implemented into existing software stacks as a single discrete step."
+            "Most solutions to this problem usually deal with completely retooling individual AI algorithms to reduce bias. This is a very inefficient and resource-heavy approach for most companies. Our solution is to have an image/video preprocessor that normalizes faces before they are analyzed by AI. This allows our product to be easily injected and implemented into existing software stacks as a single discrete step.",
+            "This project won first place in the equality track at HackUVA 2018."
         ],
         "visible": true,
         "featured": false,
@@ -208,7 +209,12 @@
             {
                 "caption": "Face Normalization",
                 "filename": "facenormalizer.GIF",
-                "class": "span-4"
+                "class": "span-2"
+            },
+            {
+                "caption": "Application Still",
+                "filename": "facenormalizer-andrew.PNG",
+                "class": "span-2"
             }
         ],
         "links": {
@@ -263,20 +269,20 @@
             }
         ],
         "links": {
-            "Website": "https://rashidlasker.github.io/freight-rate-mate/",
+            "Demo": "https://rashidlasker.github.io/freight-rate-mate/",
             "Github": "https://github.com/acs3ss/freight-rate-mate",
             "Devpost": "https://devpost.com/software/trucking-risk-minimization"
         },
         "languages": ["Javascript", "Python", "HTML/CSS"],
         "tools": ["Mapbox", "AWS Machine Learning"],
-        "tags": ["trucking", "web", "frontend"],
+        "tags": ["Hackathon", "Risk Analysis"],
         "year": "2018"
     },
     "wdm": {
         "title": "Working Directory Manager",
         "summary": "Command line directory manager for switching between multiple projects",
         "description": [
-            "This project is a command line utility for switching between multiple projects. It was built using using NodeJS and deployed through NPM"
+            "This project is a command line utility for switching between multiple projects. It was built using using NodeJS and deployed through NPM."
         ],
         "visible": true,
         "featured": false,
@@ -289,19 +295,19 @@
             }
         ],
         "links": {
-            "Project": "https://www.npmjs.com/package/working-directory-manager",
+            "NPM Package": "https://www.npmjs.com/package/working-directory-manager",
             "Github": "https://github.com/rashidlasker/working-directory-manager"
         },
         "languages": ["NodeJS"],
-        "tools": ["commander", "NPM"],
-        "tags": ["CLI", "alias"],
+        "tools": ["Commander", "NPM"],
+        "tags": ["CLI", "Productivity"],
         "year": "2018"
     },
     "teachstone": {
         "title": "Teachstone Store",
         "summary": "E-commerce site for Teachstone, a local education company",
         "description": [
-            "This project consisted of a full redesign of Teachstone's store theme during my time interning at Storyware."
+            "This project consisted of a full redesign of Teachstone's store theme during my time interning at Storyware. I implemented the design by developing a custom BigCommerce theme."
         ],
         "visible": true,
         "featured": false,
@@ -406,7 +412,7 @@
             }
         ],
         "links": {
-            "Project Download": "https://defaulttidus.itch.io/kin",
+            "Project Homepage": "https://defaulttidus.itch.io/kin",
             "Github": "https://github.com/UVASGD/spring-2017-kin"
         },
         "languages": ["C#"],
