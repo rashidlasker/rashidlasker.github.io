@@ -45,6 +45,13 @@ const Project = () => {
     <div key={line} className="text">{line}</div>
   ));
 
+  const images = project['images'].map(image => (
+    <div key={image["title"]} className={"section " + image["class"]}>
+      <img src={require('../img/projects/' + image['filename'])} />
+      <div className="caption">{image["caption"]}</div>
+    </div>
+  ));
+
   return (
     <div className="content">
       <div className="section span-1">
@@ -76,7 +83,7 @@ const Project = () => {
       <div className="section">
         <div className="subsection">
           <div className="title">Photos</div>
-          <img src={require('../img/projects/' + project['thumbnail'])} />
+          {images}
         </div>
       </div>
     </div>
