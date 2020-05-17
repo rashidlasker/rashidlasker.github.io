@@ -13,7 +13,14 @@ const App = () => {
           <NavLink className="link link-1" to="">Rashid Lasker</NavLink>
           <span className="divider">|</span>
           <NavLink className="link link-3 subnav" to="/projects/">Projects</NavLink>
-          <a className="link link-4 subnav" href="https://www.docdroid.net/qwKrlFH/rashid-lasker-resume-colored-pdf">R&eacute;sum&eacute;</a>
+          <a 
+            className="link link-4 subnav" 
+            href="https://www.docdroid.net/qwKrlFH/rashid-lasker-resume-colored-pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            R&eacute;sum&eacute;
+          </a>
         </nav>
         <Switch>
           <Route path="/" exact component={Home} />
