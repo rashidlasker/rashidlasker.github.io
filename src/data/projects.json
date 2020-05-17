@@ -1,10 +1,11 @@
 {
     "carbonkarma": {
         "title": "CarbonKarma",
-        "summary": "A browser extension that informs users about the carbon cost of things they buy online",
+        "summary": "A browser extension that informs users about the carbon cost of things they buy online.",
         "description": [
             "CarbonKarma is a browser extension that is designed to inform users of the carbon emissions that are tied to the production, packaging, and transport of things they buy online.",
-            "We annotate Amazon products with the carbon emissions so that shoppers are informed of how their shopping impacts the environment."
+            "We annotate Amazon products with the carbon emissions so that shoppers are informed of how their shopping impacts the environment.",
+            "This project was an Honorable Mention at EarthxHack 2020."
         ],
         "visible": true,
         "featured": false,
@@ -27,10 +28,11 @@
     },
     "poseparty": {
         "title": "PoseParty",
-        "summary": "A social exercise game you can play while social distancing",
+        "summary": "A social exercise game you can play while social distancing.",
         "description": [
-            "Over the course of this Coronavirus quarantine, we've discovered that it's significantly harder to connect with friends in a way that promotes physical activity. We wanted to solve this issue with a fun game that encourages a whole group of friends to get out of their chairs in an exciting and competitive way.",
-            "PoseParty is a game where players have to strike and hold the right pose to earn the most points. Each round is fast-paced, with a pose that a player has to hold for a random time duration. After several rounds, the person with the most points wins!"
+            "Over the course of the Coronavirus quarantine, we discovered how difficult it was to connect with friends in a way that promoted physical activity. We wanted to solve this issue with a fun game that encourages a whole group of friends to get out of their chairs in an exciting and competitive way.",
+            "PoseParty is a game where players have to strike and hold the right pose to earn the most points. Each round is fast-paced, with a pose that a player has to hold for a random time duration. After several rounds, the person with the most points wins!",
+            "This project won the Best Art+Gaming and Twilio awards at HooHacks 2020, Best Tech+Health and Best Overall awards at HackQuarantine, Best Overall award at the MPA COVID-19 Hackathon, and the Social Impact award at Decoded Hacks."
         ],
         "visible": true,
         "featured": true,
@@ -43,7 +45,7 @@
             }
         ],
         "links": {
-            "Website": "https://poseparty.brian.lol/",
+            "Playable Demo": "https://poseparty.brian.lol/",
             "Github": "https://github.com/brian-yu/poseparty",
             "Devpost": "https://devpost.com/software/pose-party"
         },
@@ -56,7 +58,7 @@
         "title": "HighlightKit",
         "summary": "Social highlighting on the web in just one line of code.",
         "description": [
-            ""
+            "This product allows you to instantly deploy social highlighting akin to Medium on any site with a single line of code. All you need to do is add our HighlightKit file to your header and your users will be able to save highlights within articles and view top highlights."
         ],
         "visible": true,
         "featured": true,
@@ -65,28 +67,39 @@
             {
                 "caption": "Logo",
                 "filename": "highlightkit.PNG",
-                "class": "span-4"
+                "class": "span-2"
+            },
+            {
+                "caption": "Usage",
+                "filename": "highlightkit-usage.JPG",
+                "class": "span-2"
             }
         ],
         "links": {
             "Landing Page": "https://highlightkit.com/",
             "Github": "https://github.com/brian-yu/highlightkit"
         },
-        "languages": ["Javascript"],
-        "tools": ["Webpack"],
-        "tags": ["Javascript", "Web Tool"],
+        "languages": ["Javascript", "Go"],
+        "tools": ["Webpack", "Docker"],
+        "tags": ["Web Tool", "Javascript"],
         "year": "2020"
     },
     "deploy": {
         "title": "Deploy",
         "summary": "A course at HackCville designed to teach you how modern scalable applications are built.",
         "description": [
-            ""
+            "In this course, students learn the basics of how the internet works, application development, deploying apps to the cloud, and more advanced topics in system design. Our coursework features a mix of individual assignments and group projects, training students to be both self-starting individuals and impactful team members.",
+            "My friend Brian Yu and I developed this course in the fall of 2019."
         ],
         "visible": true,
         "featured": true,
         "thumbnail": "hackcville.PNG",
         "images": [
+            {
+                "caption": "Course Landing Page",
+                "filename": "deploy-hero.JPG",
+                "class": "span-4"
+            },
             {
                 "caption": "HackCville Logo",
                 "filename": "hackcville.PNG",
@@ -171,7 +184,7 @@
         },
         "languages": ["Javascript", "Python", "HTML/CSS"],
         "tools": ["React", "Mapbox", "Google Cloud AppEngine", "Flask"],
-        "tags": ["Hackathon", "web", "frontend"],
+        "tags": ["visualization", "frontend"],
         "year": "2018"
     },
     "gameoflife": {
@@ -229,7 +242,7 @@
         },
         "languages": ["Javascript", "HTML/CSS"],
         "tools": ["Kairos", "clmtrackr"],
-        "tags": ["Hackathon", "computer vision"],
+        "tags": ["computer vision"],
         "year": "2018"
     },
     "multiredditscraper": {
@@ -362,7 +375,7 @@
         },
         "languages": ["NodeJS", "Javascript"],
         "tools": ["AWS", "Lambda", "DynamoDB", "CloudWatch", "SNS Push"],
-        "tags": ["Hackathon", "AWS", "Alexa"],
+        "tags": ["AWS", "Alexa", "SMS"],
         "year": "2017"
     },
     "launchweb": {
