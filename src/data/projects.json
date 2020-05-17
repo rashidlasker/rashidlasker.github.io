@@ -117,7 +117,7 @@
     },
     "uberatg": {
         "title": "AVMaps History Service",
-        "summary": "Enabling the visualization of audit and traceability information.",
+        "summary": "Enabling the visualization of audit and traceability information for HD maps.",
         "description": [
             "While working at Uber's Advanced Technology Group, I worked on a system to allow users to visualize diffs between features and map areas across map versions. This functionality allowed auditors to quickly review and identify changes in map versions over the course of map production. The primary goal of this project was to improve the efficiency of the quality team while performing root cause analysis.",
             "While working on this project, I gained exposure to all parts of the stack, including database interactions, backend programming, API layer design, and frontend 3D rendering."
@@ -298,7 +298,7 @@
     },
     "wdm": {
         "title": "Working Directory Manager",
-        "summary": "Command line directory manager for switching between multiple projects",
+        "summary": "A command line directory manager for switching between multiple projects",
         "description": [
             "This project is a command line utility for switching between multiple projects. It was built using using NodeJS and deployed through NPM."
         ],
@@ -323,7 +323,7 @@
     },
     "teachstone": {
         "title": "Teachstone Store",
-        "summary": "E-commerce site for Teachstone, a local education company.",
+        "summary": "An E-commerce site for Teachstone, a local education company.",
         "description": [
             "This project consisted of a full redesign of Teachstone's store theme during my time interning at Storyware. I implemented the design by developing a custom BigCommerce theme."
         ],
@@ -380,7 +380,7 @@
     },
     "launchweb": {
         "title": "Launch Web Portfolio",
-        "summary": "Web portfolio for summer UI/UX design program.",
+        "summary": "Web portfolio for a summer UI/UX design program.",
         "description": [
             "This portfolio is a collection of various small design ideas and techniques from the summer of 2017."
         ],
