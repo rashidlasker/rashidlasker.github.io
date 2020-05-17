@@ -92,6 +92,13 @@ nav .link {
   }
 }
 
+.subnav {
+  color: grey;
+  @media screen and (min-width: $break-small) {
+    color: black;
+  }
+}
+
 .divider {
   display: none;
   margin-top: 18px;

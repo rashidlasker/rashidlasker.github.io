@@ -5,19 +5,19 @@ import Projects from './Projects';
 import Project from './Project';
 
 const App = () => {
+  // TODO: render resume pdf in react
   return (
     <Router>
       <div className="App">
         <nav className="content">
           <NavLink className="link link-1" to="">Rashid Lasker</NavLink>
           <span className="divider">|</span>
-          <NavLink className="link link-3" to="/projects/">Projects</NavLink>
-          {/* <Link className="link link-4" to="/links/">Links</Link> */}
+          <NavLink className="link link-3 subnav" to="/projects/">Projects</NavLink>
+          <a className="link link-4 subnav" href="https://www.docdroid.net/qwKrlFH/rashid-lasker-resume-colored-pdf">R&eacute;sum&eacute;</a>
         </nav>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/projects/" exact component={Projects} />
-          {/* <Route path="/links/" exact component={Home} /> */}
           <Route path="/projects/:id/" component={Project} />
           <Route path="*" render={() => <Redirect to="/" />} /> 
         </Switch>

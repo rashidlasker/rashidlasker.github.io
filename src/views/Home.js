@@ -4,7 +4,6 @@ import ProjectList from '../components/ProjectList';
 import projectData from '../data/projects.json';
 import linkData from '../data/links.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFile } from '@fortawesome/free-regular-svg-icons';
 import { 
   faGithub, 
   faLinkedinIn, 
@@ -31,7 +30,6 @@ const Home = () => {
     'devpost': faDev,
     'medium': faMediumM,
     'codepen': faCodepen,
-    'resume': faFile,
     'spotify': faSpotify,
     'instagram': faInstagram
   }
@@ -41,6 +39,7 @@ const Home = () => {
       href={linkData[key]['link']} 
       alt={linkData[key]['title']} 
       key={linkData[key]['title']}
+      title={linkData[key]['title']}
       target="_blank"
       rel="noopener noreferrer"
     >
