@@ -8,7 +8,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "carbonkarma.PNG",
+        "thumbnail": "carbonkarma.PNG",
         "links": {
             "Github": "https://github.com/brian-yu/carbonkarma",
             "Devpost": "https://devpost.com/software/carbonkarma"
@@ -27,7 +27,7 @@
         ],
         "visible": true,
         "featured": true,
-        "imageLink": "poseparty.GIF",
+        "thumbnail": "poseparty.GIF",
         "links": {
             "Website": "https://poseparty.brian.lol/",
             "Github": "https://github.com/brian-yu/poseparty",
@@ -46,7 +46,7 @@
         ],
         "visible": true,
         "featured": true,
-        "imageLink": "highlightkit.PNG",
+        "thumbnail": "highlightkit.PNG",
         "links": {
             "Landing Page": "https://highlightkit.com/",
             "Github": "https://github.com/brian-yu/highlightkit"
@@ -64,7 +64,7 @@
         ],
         "visible": true,
         "featured": true,
-        "imageLink": "hackcville.PNG",
+        "thumbnail": "hackcville.PNG",
         "links": {
             "Course Website": "https://hackcville.com/course/deploy/",
             "Github": "https://github.com/hackcville/deploy"
@@ -82,7 +82,7 @@
         ],
         "visible": true,
         "featured": true,
-        "imageLink": "uber.PNG",
+        "thumbnail": "uber.PNG",
         "links": {},
         "languages": ["Javascript", "C++", "Protocol Buffers"],
         "tools": ["FusionJS", "ReactJS", "GMock", "Mapbox"],
@@ -97,7 +97,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "reinform.JPG",
+        "thumbnail": "reinform.JPG",
         "links": {
             "Github": "https://github.com/rashidlasker/rebu"
         },
@@ -115,7 +115,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "reinform.JPG",
+        "thumbnail": "reinform.JPG",
         "links": {
             "Project": "https://reinform.me/",
             "Github": "https://github.com/brian-yu/ReInform",
@@ -134,7 +134,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "gameoflife.JPG",
+        "thumbnail": "gameoflife.JPG",
         "links": {
             "Website": "https://rashidlasker.github.io/game-of-life/",
             "Github": "https://github.com/rashidlasker/game-of-life"
@@ -153,7 +153,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "facenormalizer.GIF",
+        "thumbnail": "facenormalizer.GIF",
         "links": {
             "Website": "https://rashidlasker.github.io/face-normalizer/",
             "Github": "https://github.com/rashidlasker/face-normalizer",
@@ -172,7 +172,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "reddit.JPG",
+        "thumbnail": "reddit.JPG",
         "links": {
             "Github": "https://github.com/rashidlasker/reddit-multireddit-scrape"
         },
@@ -190,7 +190,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "freightratemate.JPG",
+        "thumbnail": "freightratemate.JPG",
         "links": {
             "Website": "https://rashidlasker.github.io/freight-rate-mate/",
             "Github": "https://github.com/acs3ss/freight-rate-mate",
@@ -209,7 +209,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "wdm.JPG",
+        "thumbnail": "wdm.JPG",
         "links": {
             "Project": "https://www.npmjs.com/package/working-directory-manager",
             "Github": "https://github.com/rashidlasker/working-directory-manager"
@@ -227,7 +227,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "teachstone.JPG",
+        "thumbnail": "teachstone.JPG",
         "links": {
             "Website": "https://store.teachstone.com/"
         },
@@ -245,7 +245,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "pillpal.JPG",
+        "thumbnail": "pillpal.JPG",
         "links": {
             "Github": "https://github.com/rashidlasker/pill-pal",
             "Devpost": "https://devpost.com/software/pillpal-f3yd81"
@@ -263,7 +263,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "wireframe.JPG",
+        "thumbnail": "wireframe.JPG",
         "links": {
             "Project": "http://wireframewebsites.com/rashidlasker/",
             "Github": "https://github.com/rashidlasker/launch-homepage"
@@ -281,7 +281,7 @@
         ],
         "visible": true,
         "featured": false,
-        "imageLink": "kin.JPG",
+        "thumbnail": "kin.JPG",
         "links": {
             "Project": "https://defaulttidus.itch.io/kin",
             "Github": "https://github.com/UVASGD/spring-2017-kin"

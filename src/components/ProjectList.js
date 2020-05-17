@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { importAll } from '../utils';
-const images = importAll(require.context('../img/project-src-sm', false, /\.(PNG|JPE?G|SVG|GIF)$/));
+const thumbnails = importAll(require.context('../img/thumbnails', false, /\.(PNG|JPE?G|SVG|GIF)$/));
 
 const ProjectList = ({ projects }) => {
   const projectDataKeys = Object.keys(projects).filter(key => projects[key]['visible']);
@@ -16,7 +16,7 @@ const ProjectList = ({ projects }) => {
               key={key} 
               projectKey={key} 
               data={projects[key]} 
-              img={images[projects[key]['imageLink']]}
+              img={thumbnails[projects[key]['thumbnail']]}
               index={index}
             />
           )

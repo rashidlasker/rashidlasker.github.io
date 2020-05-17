@@ -76,7 +76,7 @@ const Project = () => {
       <div className="section">
         <div className="subsection">
           <div className="title">Photos</div>
-          <img src={require('../img/projects-src/' + project['imageLink'])} />
+          <img src={require('../img/projects/' + project['thumbnail'])} />
         </div>
       </div>
     </div>
