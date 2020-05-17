@@ -57,7 +57,7 @@ const Home = () => {
           <div className="title">Details</div>
           <div className="text">Hey there, I'm Rashid, a coder with a passion for scalable technology and cutting-edge design.</div>
           <div className="text">I'm currently a Software Engineer at Scale AI. In the past, I interned at Uber ATG and developed a system design course at HackCville while studying Computer + Cognitive Science at the University of Virginia.</div>
-          <div className="text">Want to collaborate on a project? Let's chat.</div>
+          <div className="text">Want to collaborate on a project? <a className="list-link" href="mailto:rashidlasker@gmail.com">Let's chat.</a></div>
         </div>
         <div className="subsection">
           <div className="title">Social</div>
@@ -72,7 +72,6 @@ const Home = () => {
           <div className="list-item">Frontend Development</div>
           <div className="list-item">Backend Development</div>
           <div className="list-item">System Design</div>
-          <div className="list-item">Eat Food</div>
         </div>
         <div className="subsection">
           <div className="title">Books I've Read Recently</div>
@@ -82,11 +81,10 @@ const Home = () => {
           <div className="list-item">Ishmael</div>
         </div>
         <div className="subsection">
-          <div className="title">Books I've Read Recently</div>
-          <div className="list-item">The Design of Everyday Things</div>
-          <div className="list-item">The Three-Body Problem</div>
-          <div className="list-item">The Beach</div>
-          <div className="list-item">Ishmael</div>
+          <div className="title">Hobbies</div>
+          <div className="list-item">Hand Drumming</div>
+          <div className="list-item">Dancing</div>
+          <div className="list-item">Cooking</div>
         </div>
       </div>
       <div className="section span-1">
