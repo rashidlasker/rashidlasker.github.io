@@ -106,7 +106,8 @@
         "title": "AVMaps History Service",
         "summary": "Enabling the visualization of audit and traceability information.",
         "description": [
-            "This system allows users to visualize diffs between features and map areas across map versions, allowing auditors to quickly review and identify changes in map versions. The primary goal of this project is to improve the efficiency of the quality team while performing root cause analysis"
+            "While working at Uber's Advanced Technology Group, I worked on a system to allow users to visualize diffs between features and map areas across map versions. This functionality allowed auditors to quickly review and identify changes in map versions over the course of map production. The primary goal of this project was to improve the efficiency of the quality team while performing root cause analysis.",
+            "While working on this project, I gained exposure to all parts of the stack, including database interactions, backend programming, API layer design, and frontend 3D rendering."
         ],
         "visible": true,
         "featured": true,
@@ -115,39 +116,44 @@
             {
                 "caption": "Uber Logo",
                 "filename": "uber.PNG",
-                "class": "span-4"
+                "class": "span-2"
             }
         ],
-        "links": {},
+        "links": {
+            "Uber ATG": "https://www.uber.com/us/en/atg/"
+        },
         "languages": ["Javascript", "C++", "Protocol Buffers"],
         "tools": ["FusionJS", "ReactJS", "GMock", "Mapbox"],
-        "tags": ["Visualization", "API"],
+        "tags": ["Internship", "fullstack"],
         "year": "2019"
     },
     "rebu": {
         "title": "Rebu",
         "summary": "A marketplace where people can buy/sell homemade meals.",
         "description": [
-            "This web app connects home chefs looking to break into the food marketplace with folks in their neighborhood who are hungry for a good meal. Customers can go to the website, choose from an array of home-cooked options, pay online and pick up dinner within minutes of placing their order. This app was a project for a class at UVA called Internet Scale Applications."
+            "This web app connects home chefs looking to break into the food marketplace with folks in their neighborhood who are hungry for a good meal. Customers can go to the website, choose from an array of home-cooked options, pay online and pick up dinner within minutes of placing their order.",
+            "This app was a project for a class at UVA called Internet Scale Applications. Over the course of building it, I learned several scalability concepts like containerization, batch processing, MapReduce, and so much more."
         ],
         "visible": true,
         "featured": false,
-        "thumbnail": "reinform.JPG",
+        "thumbnail": "",
         "images": [],
         "links": {
-            "Github": "https://github.com/rashidlasker/rebu"
+            "Github": "https://github.com/rashidlasker/rebu",
+            "Course Website": "https://github.com/thomaspinckney3/cs4501/"
         },
-        "languages": ["Python"],
+        "languages": ["Python", "HTML/CSS", "Javascript"],
         "tools": ["Django", "Docker", "ElasticSearch", "Kafka", "Selenium"],
         "tags": ["System Design", "Fullstack"],
         "year": "2019"
     },
     "reinform": {
         "title": "ReInform",
-        "summary": "A web app to increase congressional accountability by giving voters a clear snapshot of a representative's legislative history",
+        "summary": "A web app to increase congressional accountability by giving voters a clear snapshot of a representative's legislative history.",
         "description": [
             "This web app plots congressional representatives on a map in their respective districts all across the country.",
-            "Users can travel from from state to state on the map to see how representatives are spread out in terms of location and party. Users can then click on the name or location of a representative to view information on their voting history, funding, and viewpoints. Users are also given each representative's contact information if they want to pursue further actionable steps. This project won First Place at Disrupt the District."
+            "Users can travel from from state to state on the map to see how representatives are spread out in terms of location and party. Users can then click on the name or location of a representative to view information on their voting history, funding, and viewpoints. Users are also given each representative's contact information if they want to pursue further actionable steps.",
+            "This project won First Place at Disrupt the District 2018."
         ],
         "visible": true,
         "featured": false,
@@ -160,13 +166,12 @@
             }
         ],
         "links": {
-            "Project": "https://reinform.me/",
             "Github": "https://github.com/brian-yu/ReInform",
             "Devpost": "https://devpost.com/software/reinform"
         },
         "languages": ["Javascript", "Python", "HTML/CSS"],
         "tools": ["React", "Mapbox", "Google Cloud AppEngine", "Flask"],
-        "tags": ["congress", "web", "frontend"],
+        "tags": ["Hackathon", "web", "frontend"],
         "year": "2018"
     },
     "gameoflife": {
@@ -186,7 +191,7 @@
             }
         ],
         "links": {
-            "Website": "https://rashidlasker.github.io/game-of-life/",
+            "Live Demo": "https://rashidlasker.github.io/game-of-life/",
             "Github": "https://github.com/rashidlasker/game-of-life"
         },
         "languages": ["Javascript", "HTML/CSS"],
@@ -196,7 +201,7 @@
     },
     "facenormalizer": {
         "title": "Face Normalizer",
-        "summary": "Eliminating racial biases from AI algorithms with normalization preprocessing",
+        "summary": "Eliminating racial biases from AI algorithms with normalization preprocessing.",
         "description": [
             "The past few years have been rife with news about racial biases within AI algorithms. One of the primary problems with AI today is how it can manifest inherent human biases in actual applications.",
             "Most solutions to this problem usually deal with completely retooling individual AI algorithms to reduce bias. This is a very inefficient and resource-heavy approach for most companies. Our solution is to have an image/video preprocessor that normalizes faces before they are analyzed by AI. This allows our product to be easily injected and implemented into existing software stacks as a single discrete step.",
@@ -224,7 +229,7 @@
         },
         "languages": ["Javascript", "HTML/CSS"],
         "tools": ["Kairos", "clmtrackr"],
-        "tags": ["computer vision"],
+        "tags": ["Hackathon", "computer vision"],
         "year": "2018"
     },
     "multiredditscraper": {
@@ -248,7 +253,7 @@
         },
         "languages": ["Python"],
         "tools": ["Flask"],
-        "tags": ["requests", "scheduling"],
+        "tags": ["Interview", "API interaction"],
         "year": "2018"
     },
     "freightratemate": {
@@ -305,7 +310,7 @@
     },
     "teachstone": {
         "title": "Teachstone Store",
-        "summary": "E-commerce site for Teachstone, a local education company",
+        "summary": "E-commerce site for Teachstone, a local education company.",
         "description": [
             "This project consisted of a full redesign of Teachstone's store theme during my time interning at Storyware. I implemented the design by developing a custom BigCommerce theme."
         ],
@@ -335,7 +340,7 @@
     },
     "pillpal": {
         "title": "PillPal",
-        "summary": "A suite of shared-responsibility tools for medication adherence",
+        "summary": "A suite of shared-responsibility tools for medication adherence.",
         "description": [
             "PillPal is a comprehensive suite of tools that develop a shared network of responsibility to remind patients of the times they should be taking their medications as well as their prescribed dosages. On the patient-side, the system uses Alexa to give a vocal reminder of which medications should be taken at which time.",
             "Because mobile interfaces can be difficult to use for this demographic, we wanted our project to provide a sense of interpersonal communication, improving accessibility. A series of voice-enabled commands allow patients to learn more about the drugs they're taking, why they're taking them, and how often they should be taken.",
@@ -362,7 +367,7 @@
     },
     "launchweb": {
         "title": "Launch Web Portfolio",
-        "summary": "Web portfolio for summer UI/UX design program",
+        "summary": "Web portfolio for summer UI/UX design program.",
         "description": [
             "This portfolio is a collection of various small design ideas and techniques from the summer of 2017."
         ],
@@ -386,7 +391,7 @@
     },
     "kin": {
         "title": "Kin",
-        "summary": "A 2D open-world, action-adventure role-playing game built using Unity",
+        "summary": "A 2D open-world, action-adventure role-playing game built using Unity.",
         "description": [
             "Kin is a 2D open-world, action-adventure role-playing game where players explore a fictional New World as an order of European monks. Players can befriend the natives, discover terrible and primordial secrets, collect resources for the order, build structures, craft runes to augment their sword, and slay ancient gods.",
             "Over the course of this project, I primarily worked on enemy interaction and AI."
