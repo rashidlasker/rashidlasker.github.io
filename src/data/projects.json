@@ -376,12 +376,23 @@
         "title": "Kin",
         "summary": "A 2D open-world, action-adventure role-playing game built using Unity",
         "description": [
-            "Kin is a 2D open-world, action-adventure role-playing game where players explore a fictional New World as an order of European monks. Players can befriend the natives, discover terrible and primordial secrets, collect resources for the order, build structures, craft runes to augment their sword, and slay ancient gods. Time is ticking and if it should run out before the player defeats the pantheon, everything will be for naught!"
+            "Kin is a 2D open-world, action-adventure role-playing game where players explore a fictional New World as an order of European monks. Players can befriend the natives, discover terrible and primordial secrets, collect resources for the order, build structures, craft runes to augment their sword, and slay ancient gods.",
+            "Over the course of this project, I primarily worked on enemy interaction and AI."
         ],
         "visible": true,
         "featured": false,
         "thumbnail": "kin.JPG",
         "images": [
+            {
+                "caption": "Main hub area",
+                "filename": "kin-town.PNG",
+                "class": "span-2"
+            },
+            {
+                "caption": "Title screen",
+                "filename": "kin-title.PNG",
+                "class": "span-2"
+            },
             {
                 "caption": "Gameplay",
                 "filename": "kin.JPG",
@@ -389,7 +400,7 @@
             }
         ],
         "links": {
-            "Project": "https://defaulttidus.itch.io/kin",
+            "Project Download": "https://defaulttidus.itch.io/kin",
             "Github": "https://github.com/UVASGD/spring-2017-kin"
         },
         "languages": ["C#"],
