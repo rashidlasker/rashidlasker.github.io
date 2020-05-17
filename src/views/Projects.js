@@ -7,7 +7,6 @@ const Projects = () => {
   document.title = "Projects | Rashid Lasker";
 
   const [queryValue, setQueryValue] = useState('');
-  const [loading, setLoading] = useState(false);
   const [projects, setProjects] = useState(projectData);
 
   // TODO: Better queries
@@ -39,12 +38,10 @@ const Projects = () => {
     }
 
     setProjects(result);
-    setLoading(false);
   }, [queryValue]);
 
   const onChangeHandler = event => {
     setQueryValue(event.target.value);
-    setLoading(true);
   };
 
   return (
