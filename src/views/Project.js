@@ -47,7 +47,7 @@ const Project = () => {
 
   const images = project['images'].map(image => (
     <div key={image["title"]} className={"section " + image["class"]}>
-      <img src={require('../img/projects/' + image['filename'])} />
+      <img alt={image["title"]} src={require('../img/projects/' + image['filename'])} />
       <div className="caption">{image["caption"]}</div>
     </div>
   ));
