@@ -12,9 +12,14 @@
         "thumbnail": "carbonkarma.PNG",
         "images": [
             {
+                "caption": "Popup",
+                "filename": "carbonkarma-popup.PNG",
+                "class": "span-1"
+            },
+            {
                 "caption": "Dashboard",
                 "filename": "carbonkarma.PNG",
-                "class": "span-4"
+                "class": "span-2"
             }
         ],
         "links": {
@@ -150,7 +155,13 @@
         "visible": true,
         "featured": false,
         "thumbnail": "uva.JPG",
-        "images": [],
+        "images": [
+            {
+                "caption": "Homepage",
+                "filename": "rebu-home.PNG",
+                "class": "span-4"
+            }
+        ],
         "links": {
             "Github": "https://github.com/rashidlasker/rebu",
             "Course Website": "https://github.com/thomaspinckney3/cs4501/"
