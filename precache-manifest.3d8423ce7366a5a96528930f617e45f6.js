@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99d6fe1ea93997bcda1239a33521292e",
+    "revision": "f526fdeb96df8b8a660a85eb0e1f3a96",
     "url": "/index.html"
   },
   {
-    "revision": "cea2579804e1d375cabb",
+    "revision": "a413d85cabb809baaf44",
     "url": "/static/css/main.8acfe91d.chunk.css"
   },
   {
-    "revision": "efca7f2023a0ecb53300",
-    "url": "/static/js/2.c14d21e6.chunk.js"
+    "revision": "09ca3eb350ed13cd54a4",
+    "url": "/static/js/2.d82cf012.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.c14d21e6.chunk.js.LICENSE.txt"
+    "revision": "f5dd1cdcd51b7fe999ae164c9c2ff687",
+    "url": "/static/js/2.d82cf012.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cea2579804e1d375cabb",
-    "url": "/static/js/main.7e08f2df.chunk.js"
+    "revision": "a413d85cabb809baaf44",
+    "url": "/static/js/main.c89868fd.chunk.js"
   },
   {
-    "revision": "00c15f563c07b4b1c9bf",
-    "url": "/static/js/runtime-main.7c825207.js"
+    "revision": "e0463014394f254e4581",
+    "url": "/static/js/runtime-main.8add2776.js"
   },
   {
     "revision": "f12335634cbd1bcb4b5f09d39f609207",
@@ -45,7 +45,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "bdaccdbd1561c157a1b043e580b71a3b",
-    "url": "/static/media/facenormalizer.bdaccdbd.GIF"
+    "url": "/static/media/facenormalizer.bdaccdbd.gif"
   },
   {
     "revision": "c12f7d6c0a79f300ce218d832e81e73b",
@@ -105,7 +105,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "466414019d65ab7e68d075b5fcc85542",
-    "url": "/static/media/pillpal.46641401.JPG"
+    "url": "/static/media/pillpal.46641401.jpg"
   },
   {
     "revision": "69a8419646c3efcbaef67d4451f40352",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/poseparty.7dfdd678.GIF"
   },
   {
-    "revision": "9e70e7863a0c5c44b6dc5f796d48ee0b",
-    "url": "/static/media/rashid.9e70e786.JPG"
+    "revision": "8c1150384056014adb9d6765735e0e32",
+    "url": "/static/media/rashid.8c115038.JPG"
   },
   {
     "revision": "a7ddf07ff5e85a8a962526b9daade685",
