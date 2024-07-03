@@ -55,8 +55,8 @@ const Home = () => {
       <div className="section span-2">
         <div className="subsection">
           <div className="title">Bio</div>
-          <div className="text">Hey there, I'm Rashid, a coder with a passion for scalable technology and cutting-edge design.</div>
-          <div className="text">I'm currently a Software Engineer at <a className="list-link" href="https://scale.com/" target="_blank" rel="noopener noreferrer">Scale AI</a>. In the past, I interned at <a className="list-link" href="https://www.uber.com/us/en/atg/" target="_blank" rel="noopener noreferrer">Uber ATG</a> and worked on 3D high-definition maps. I also developed a system design course at a nonprofit called <a className="list-link" href="https://hackcville.com/" target="_blank" rel="noopener noreferrer">HackCville</a> while studying Computer + Cognitive Science at the University of Virginia.</div>
+          <div className="text">Hey there, I'm Rashid, a coder with a passion for scalable technology, complex frontend systems, and AI interactions.</div>
+          <div className="text">I'm currently a Senior Software Engineer at <a className="list-link" href="https://scale.com/" target="_blank" rel="noopener noreferrer">Scale AI</a>. In the past, I interned at <a className="list-link" href="https://www.uber.com/us/en/atg/" target="_blank" rel="noopener noreferrer">Uber ATG</a> and worked on 3D high-definition maps. I also developed a system design course at a nonprofit called <a className="list-link" href="https://hackcville.com/" target="_blank" rel="noopener noreferrer">HackCville</a> while studying Computer + Cognitive Science at the University of Virginia.</div>
           <div className="text">Want to collaborate on a project? <a className="list-link" href="mailto:rashidlasker@gmail.com">Let's chat.</a></div>
         </div>
         <div className="subsection">
@@ -69,22 +69,21 @@ const Home = () => {
       <div className="section span-1">
         <div className="subsection">
           <div className="title">What I Do</div>
-          <div className="list-item">Frontend Development</div>
-          <div className="list-item">Backend Development</div>
+          <div className="list-item">Fullstack Development</div>
+          <div className="list-item">Product Engineering</div>
           <div className="list-item">System Design</div>
         </div>
         <div className="subsection">
-          <div className="title">Books I've Recently Read</div>
+          <div className="title">Books I Like</div>
           <div className="list-item">The Design of Everyday Things</div>
           <div className="list-item">The Three-Body Problem</div>
           <div className="list-item">The Beach</div>
-          <div className="list-item">Ishmael</div>
         </div>
         <div className="subsection">
-          <div className="title">Things I'm Learning</div>
-          <div className="list-item">ROS + Robotics</div>
-          <div className="list-item">Hand Drumming</div>
-          <div className="list-item">Latin Dancing</div>
+          <div className="title">Hobbies</div>
+          <div className="list-item">Backpacking</div>
+          <div className="list-item">Snowboarding</div>
+          <div className="list-item">Coastal Foraging</div>
         </div>
       </div>
       <div className="section span-1">
